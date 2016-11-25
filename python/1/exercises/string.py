@@ -19,8 +19,9 @@
 # Таким образом, donuts(5) вернет 'Количество пончиков: 5'
 # а donuts(23) - 'Количество пончиков: много'
 def donuts(count):
-    # +++ ваш код +++
-    return
+    if count >= 10:
+        count = "много"
+    return 'Количество пончиков: {}'.format(count)
 
 
 # B. Оба конца
@@ -31,8 +32,11 @@ def donuts(count):
 # Однако, если длина строки меньше, чем 2 -
 # верните просто пустую строчку.
 def both_ends(s):
-    # +++ ваш код +++
-    return
+    if len(s) < 2:
+        return ""
+    else:
+        return s[:2] + s[-2:]
+
 
 
 # C. Кроме первого
@@ -44,8 +48,7 @@ def both_ends(s):
 # Подсказка: s.replace(stra, strb) вернет версию строки, 
 # в которой все вхождения stra будут заменены на strb.
 def fix_start(s):
-    # +++ ваш код +++
-    return
+    return s[0]+s[1:].replace(s[0], "*")
 
 
 # D. Перемешивание
@@ -57,8 +60,7 @@ def fix_start(s):
 #   'dog', 'dinner' -> 'dig donner'
 # Предполагается, что строки a и b имеют длину 2 и более символов.
 def mix_up(a, b):    
-    # +++ ваш код +++
-    return
+    return b[:2] + a[2:] + " " + a[:2] + b[2:]
 
 
 # E. Хорош
@@ -70,8 +72,12 @@ def mix_up(a, b):
 # Т.о., 'Этот ужин не так уж плох!' вернет:
 # Этот ужин хорош!
 def not_bad(s):
-    # +++ ваш код +++    
-    return
+    place_not = s.find("не")
+    if place_not != -1:
+        place_bad = s.find("плох", place_not+1)
+        if place_bad != -1:
+            s = s[:place_not]+"хорош"+s[place_bad+4:]
+    return s
 
 
 # F. Две половины
@@ -82,8 +88,7 @@ def not_bad(s):
 # Даны 2 строки, a и b, верните строку вида:
 # 1-половина-a + 1-половина-b + 2-половина-a + 2-половина-b
 def front_back(a, b):
-    # +++ ваш код +++
-    return
+    return a[:-(-len(a)//2)] + b[:-(-len(b)//2)] + a[-(-len(a)//2):] + b[-(-len(b)//2):]
 
 
 
