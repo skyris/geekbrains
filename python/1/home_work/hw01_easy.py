@@ -3,8 +3,7 @@
 import unittest
 from contextlib import contextmanager
 from contextlib import redirect_stdout
-
-from experiments.io import StringIO
+from io import StringIO
 
 __author__ = "Victor Klimov"
 __copyright__ = "Creative Commons License;)"
