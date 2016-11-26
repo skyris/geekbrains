@@ -17,8 +17,12 @@
 # а первый и последний символы этих строк совпадают.
 # Примечание: в python нет оператора ++. Но += сработает.
 def match_ends(words):
-    # +++ ваш код +++
-    return
+    count = 0
+    for word in words:
+        if len(word) > 1:
+            if word[0] == word[-1]:
+                count += 1
+    return count
 
 
 # B. Начинающиеся с X в начале
@@ -29,8 +33,14 @@ def match_ends(words):
 # ['xanadu', 'xyz', 'aardvark', 'apple', 'mix']
 # Подсказка: это можно сделать при помощи склеивания 2х заранее отсортированных списков
 def front_x(words):
-    # +++ ваш код +++
-    return
+    x_lst = []
+    not_x = []
+    for word in words:
+        if word[0] == "x":
+            x_lst.append(word)
+        else:
+            not_x.append(word)
+    return sorted(x_lst)+ sorted(not_x)
 
 
 # C. Сортировка по последнему числу
@@ -41,11 +51,8 @@ def front_x(words):
 # [[2, 2], [1, 3], [3, 4, 5], [1, 7]]
 # Подсказка: используйте параметр key= функции сортировки, 
 # чтобы получить последний элемент подсписка.
-
 def sort_last(lists):
-    # +++ ваш код +++
-    return
-
+    return sorted(lists, key=lambda x: x[-1])
 
 
 # D. Удаление соседей
@@ -54,9 +61,16 @@ def sort_last(lists):
 # были бы сведены к одному элементу.
 # Таким образом, из [1, 2, 2, 3, 4, 4] получится [1, 2, 3, 4]. 
 def remove_adjacent(nums):
-    # +++ ваш код +++
-    return
-
+    if not nums: return []
+    new = nums[0]
+    output = [new]
+    for num in nums[1:]:
+        if num == new:
+            continue
+        else:
+            new = num
+            output.append(new)
+    return output
 
 
 # Простая функция test() используется в main() для вывода

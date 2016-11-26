@@ -24,8 +24,7 @@
 # Например, из 'a b c d e f' получится 'b d f'
 # Решите задачу в одну строчку используя срезы.
 def even(s):
-    # +++ ваш код +++
-    return
+    return " ".join(s.split(" ")[1::2])
 
 
 # B. Наоборот
@@ -35,8 +34,7 @@ def even(s):
 # Например, из 'a b c d e' получится 'e d c b a'
 # Решите задачу в одну строчку используя срезы.
 def reverse(s):
-    # +++ ваш код +++
-    return
+    return " ".join(s.split(" ")[::-1])
 
 
 # C. Сдвиг
@@ -46,8 +44,9 @@ def reverse(s):
 # Например, из 'a b c d e f' получится 'f a b c d e'
 # Решите задачу в две строки используя срезы.
 def shift(s):
-    # +++ ваш код +++
-    return
+    s = s.split(" ")
+    s[0:0] = s[-1:]
+    return " ".join(s[:-1])
 
 
 # D. Палиндром
@@ -56,8 +55,7 @@ def shift(s):
 # Число является палиндромом если оно одинаково читающееся в обоих направлениях.
 # Решите задачу в одну строку используя срезы.
 def palindrome(d):    
-    # +++ ваш код +++
-    return
+    return str(d) == str(d)[::-1]
 
 
 # E. Внутри
@@ -67,9 +65,10 @@ def palindrome(d):
 # исходной строки. Например, из 'a b c d e f' получится 'b c a f d e'.
 # Решите задачу в три строки используя срезы.
 def inside(s):
-    # +++ ваш код +++
-    return
-
+    s = s.split(" ")
+    s.insert(len(s)//2-1, s.pop(0))
+    s.insert(len(s)//2, s.pop(-1))
+    return " ".join(s)
 
 
 # Простая функция test() используется в main() для вывода
@@ -99,6 +98,7 @@ def main():
     test(shift('w ee rt fff xyz'), 'xyz w ee rt fff')
 
     print()
+
     print('Палиндром')
     test(palindrome(12321), True)
     test(palindrome(12345), False)
