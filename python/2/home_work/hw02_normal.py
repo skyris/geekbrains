@@ -67,9 +67,12 @@ class Test(unittest.TestCase):
 
     def test_date_to_text(self):
         self.assertEqual(date_to_text("02.11.2013"), "второе ноября 2013 года")
+        self.assertEqual("И снова "+date_to_text("03.09.2000"), "И снова третье сентября 2000 года")
 
     def test_fill_random(self):
-        pass
+        self.assertCountEqual(unique_list([1,2,4,5,6,2,5,2]), [1,2,4,5,6])
+        self.assertCountEqual(unique_list([1,2,float("inf"),5,6,2,5,10]), [float("inf"),1,2,5,6,10])
+        self.assertCountEqual(unique_list([]), [])
 
 if __name__ == "__main__":
     unittest.main()
