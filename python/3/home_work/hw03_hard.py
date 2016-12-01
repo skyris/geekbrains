@@ -1,3 +1,5 @@
+import os
+
 # Задание-1:
 # Написать программу, выполняющую операции (сложение и вычитание) с простыми дробями.
 # Дроби вводятся и выводятся в формате: n x/y ,где n - целая часть, x - числитель, у - знаменатель.
@@ -28,3 +30,29 @@
 # Подсказка:
 # Чтобы получить список больших букв русского алфавита:
 # print(list(map(chr, range(ord('А'), ord('Я')+1))))
+def sort_fruits():
+    cwd = os.getcwd()
+    fruits_txt_path = os.path.join(cwd, "data/fruits.txt")
+    with open(fruits_txt_path, "r") as file:
+        fruits_list = file.read().split("\n")
+        fruits_list = sorted(list(filter(None, fruits_list)))
+
+    rus_letters = map(chr, range(ord("А"), ord("Я")+1))
+    fruits_dict = {}
+    for letter in rus_letters:
+        fruits_dict[letter] = []
+    for fruit in fruits_list:
+        fruits_dict[fruit[0]].append(fruit)
+
+    res_dir = os.path.join(cwd, "data/res")
+    if not os.path.exists(res_dir):
+        os.makedirs(res_dir)
+
+    for letter in fruits_dict:
+        if len(fruits_dict[letter]):
+            file_name = os.path.join(res_dir, "fruits_" + letter)
+            with open(file_name, "w") as file:
+                for item in fruits_dict[letter]:
+                    file.write(item+"\n")
+
+sort_fruits()
