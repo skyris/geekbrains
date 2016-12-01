@@ -1,8 +1,6 @@
-#1/usr/bin/env python3
+# 1/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import unittest
-from contextlib import contextmanager
-from io import StringIO
 
 
 __author__ = "Victor Klimov"
@@ -17,6 +15,8 @@ __copyright__ = "Creative Commons License;)"
 
 
 def my_round(number, ndigits):
+    if not (isinstance(ndigits, int) and (isinstance(number, float) or isinstance(number, int))):
+        raise TypeError
     try:
         num = str(number).split(".")
         end = num[1][:ndigits]
@@ -25,15 +25,23 @@ def my_round(number, ndigits):
         end = int(end)
         if int(num[1][ndigits]) > 4:
             end += 1
-        print(ndigits, end)
-        print(10**ndigits)
-        print(end / (10**ndigits))
+        # print(ndigits, end)
+        # print(10**ndigits)
+        # print(end / (10**ndigits))
         end = end / 10**ndigits
         return float(num[0]) + end
     except IndexError:
         return number
     except ValueError:
         raise TypeError("Not a number")
+
+
+def my_round2(number, ndigits):
+    if not (isinstance(ndigits, int) and (isinstance(number, float) or isinstance(number, int))):
+        raise TypeError
+    num = str(float(number))
+    zero_place = num.find(".")
+
 
 # Задание-2:
 # Дан шестизначный номер билета. Определить, является ли билет счастливым.
@@ -42,14 +50,17 @@ def my_round(number, ndigits):
 # !!!P.S.: функция не должна НИЧЕГО print'ить
 def lucky_ticket(ticket_number):
     num = str(ticket_number)
-    return sum(map(int, num[:len(num)//2])) == sum(map(int, num[len(num)//2:]))
+    return sum(map(int, num[:len(num) // 2])
+               ) == sum(map(int, num[len(num) // 2:]))
 
 
 class Test(unittest.TestCase):
+
     def test_my_round(self):
         self.assertEqual(my_round(2.4444, 2), 2.44)
         self.assertEqual(my_round(3.99999, 3), 4.0)
         self.assertEqual(my_round(2.1234567, 5), 2.12346)
+        self.assertEqual(my_round(2.1234567, 0), 2.0)
 
     def test_lucky_ticket(self):
         self.assertEqual(lucky_ticket(123321), True)
