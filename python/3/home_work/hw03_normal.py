@@ -65,8 +65,8 @@ def fibonacci(n, m):
     return sorted(mem.values())[n:m + 1]
 
 
-#  Ряд фибоначи от n до m динамическим программированием
-
+#  TODO Ряд фибоначи от n до m динамическим программированием
+#
 # Задача-2:
 # Напишите функцию, сортирующую принимаемый список по возрастанию.
 # Для сортировки используйте любой алгоритм (например пузырьковый).
@@ -74,7 +74,7 @@ def fibonacci(n, m):
 # sort()
 
 
-# Учил раньше сортировки. Выдаю то, в чем разобрался.
+# Учил раньше сортировки. Записал, то что вспомнил сразу.
 # Сортировка пузырьком
 # Поочередно сравниваем соседние элементы
 # Если порядок нарушен - меняем местами.
@@ -85,35 +85,23 @@ def bubble_sort(lst):
                 lst[i - 1], lst[i] = lst[i], lst[i - 1]  # swap
     return lst
 
-# Сортировка слиянием
-
-
+# TODO Сортировка слиянием
 def merge_sort(lst):
     pass
 
 
+# TODO Selection sort
 # Селекшен сорт немного похожа на сортировку пузырьком,
 # но в ней на каждом шаге ищем минимальное значение
 # и ставим в конец ОТСОРТИРОВАННОГО списка
-#
 def selection_sort(lst):
-    for i in range(len(lst) - 1):
-        min_index = i
-        min_value = lst[i]
-        j = i + 1
-        while j < len(lst):
-            if min_value > lst[j]:
-                min_index = j
-                min_value = lst[j]
-            j += 1
-        lst[min_index], lst[j] = lst[j], lst[min_index]
-    return lst
+    pass
 
 # Быстрая сортировка
 # Берем произвольный элемент за основу.
 # Кажый элемент в зависимости от того, мешьше он основы
 # или больше, помещаем до основы или после основы.
-# Делаеь это рекурсивно
+# Делаем это рекурсивно
 
 
 def quick_sort(lst):
@@ -127,25 +115,23 @@ def quick_sort(lst):
     return []
 
 
-def sort_to_max(origin_list):
-    pass
-
 # sort_to_max([2, 10, -12, 2.5, 20, -11, 4, 4, 0])
 
 # Задача-3:
 # Напишите собственную реализацию функции filter.
 # Разумеется, внутри нельзя использовать саму функцию filter.
-def filtr(foo, seq):
-    return (x for x in seq if foo(x))
 
-# Не совсем то же самое поскольку в filter можно впихнуть None
-# в качестве функции
+
 def filtr2(foo, seq):
     if type(foo) == type(lambda _: _):
         return (x for x in seq if foo(x))
     elif foo is None:
         return (x for x in seq if x)
 
+
+# Постарался сделать максимально похоже:
+# 1) в filter можно впихнуть None вместо функции
+# 2) на выходе генератор
 
 
 # Задача-4:
@@ -172,7 +158,7 @@ class Test(unittest.TestCase):
     def test_quick_sort(self):
         self.assertEqual(quick_sort([2, 10, -12, 2.5, 20, -11, 4, 4, 0]), sorted([2, 10, -12, 2.5, 20, -11, 4, 4, 0]))
         self.assertEqual(bubble_sort([2, 10, -12, 2.5, 20, -11, 4, 4, 0]), sorted([2, 10, -12, 2.5, 20, -11, 4, 4, 0]))
-        # self.assertEqual(selection_sort([2, 10, -12, 2.5, 20, -11, 4, 4, 0]), sorted([2, 10, -12, 2.5, 20, -11, 4, 4, 0]))
+
     def test_filtr(self):
         seq = [1, 2, -3, 0, 8, -7, 6, None]
         foo =  lambda x: x > 0
@@ -184,7 +170,6 @@ class Test(unittest.TestCase):
         self.assertEqual(is_parallelogram((0,0),(10,0),(10,10),(0,10)), True)
         self.assertEqual(is_parallelogram((0,0),(5,1),(6,6),(1,5)), True)
         self.assertEqual(is_parallelogram((0,1),(0,10),(10,10),(10,0)), False)
-
 
 
 if __name__ == "__main__":

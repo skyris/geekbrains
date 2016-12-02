@@ -13,7 +13,8 @@ __copyright__ = "Creative Commons License;)"
 # Округление должно происходить по математическим правилам (0.6 --> 1, 0.4 --> 0).
 # Для решения задачи не используйте встроенные функции и функции из модуля math
 
-
+# Для happy path было несложно написать, а вот для прохождения негативных тестов
+# получилось бы несколько громоздко и не красиво
 def my_round(number, ndigits):
     if not (isinstance(ndigits, int) and (isinstance(number, float) or isinstance(number, int))):
         raise TypeError
@@ -25,22 +26,12 @@ def my_round(number, ndigits):
         end = int(end)
         if int(num[1][ndigits]) > 4:
             end += 1
-        # print(ndigits, end)
-        # print(10**ndigits)
-        # print(end / (10**ndigits))
         end = end / 10**ndigits
         return float(num[0]) + end
     except IndexError:
         return number
     except ValueError:
         raise TypeError("Not a number")
-
-
-def my_round2(number, ndigits):
-    if not (isinstance(ndigits, int) and (isinstance(number, float) or isinstance(number, int))):
-        raise TypeError
-    num = str(float(number))
-    zero_place = num.find(".")
 
 
 # Задание-2:
@@ -60,7 +51,7 @@ class Test(unittest.TestCase):
         self.assertEqual(my_round(2.4444, 2), 2.44)
         self.assertEqual(my_round(3.99999, 3), 4.0)
         self.assertEqual(my_round(2.1234567, 5), 2.12346)
-        self.assertEqual(my_round(2.1234567, 0), 2.0)
+        self.assertEqual(my_round(2.1234567, 1), 2.1)
 
     def test_lucky_ticket(self):
         self.assertEqual(lucky_ticket(123321), True)
