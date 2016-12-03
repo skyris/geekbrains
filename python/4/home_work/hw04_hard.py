@@ -1,10 +1,31 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import re
+import unittest
+import random
+import os
+from functools import reduce
+
+__author__ = "Victor Klimov"
+__copyright__ = "Creative Commons License;)"
+
+
 # Задание-1:
 # Матрицы в питоне реализуются в виде вложенных списков:
 # Пример. Дано:
 matrix = [[1, 0, 8],
           [3, 4, 1],
           [0, 4, 2]]
-          
+
+# matrix[x][y]
+# print(matrix)
+# razm = len(matrix[0])
+# m = [el for row in matrix for el in row]
+#
+# for i in range(razm)
+# print(m)
+
 # Выполнить поворот (транспонирование) матрицы
 # Пример. Результат:
 # matrix_rotate = [[1, 3, 0],
@@ -38,6 +59,22 @@ number = """
 84580156166097919133875499200524063689912560717606
 05886116467109405077541002256983155200055935729725
 71636269561882670428252483600823257530420752963450"""
+
+
+def foo():
+    global number
+    number = number.replace("\n", "")
+    lst = []
+    for i in range(1000-5+1):
+        multiply = reduce(lambda x, y: x*y, map(int,number[i:i+5]))
+        lst.append([multiply, i])
+    new = sorted(lst, key=lambda x: x[0])
+    print("Наибольшее произведение - {}, индекс смещения первого числа последовательноси - {}"
+          .format(new[-1][0], new[-1][1]))
+
+
+foo()
+
 
 # Задание-3 (Ферзи):
 # Известно, что на доске 8×8 можно расставить 8 ферзей так, чтобы они не били друг друга.

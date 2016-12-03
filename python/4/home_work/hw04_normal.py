@@ -3,7 +3,8 @@
 
 import re
 import unittest
-
+import random
+import os
 
 __author__ = "Victor Klimov"
 __copyright__ = "Creative Commons License;)"
@@ -35,7 +36,7 @@ print(upper_surround(line))
 
 
 def upper_surround_re(line):
-    pattern = r"([a-z0-9]+)"
+    pattern = r"([a-z]+)"
     return re.findall(pattern,line)
 
 
@@ -62,3 +63,45 @@ line_2 = 'mtMmEZUOmcqWiryMQhhTxqKdSTKCYEJlEZCsGAMkgAYEOmHBSQsSUHKvSfbmxULaysmNOG
 # Напишите скрипт, заполняющий указанный файл (самостоятельно задайте имя файла) произвольными целыми
 # числами, в результате в файле должно быть 2500-значное произвольное число.
 # Найдите и выведите самую длинную последовательность одинаковых цифр в вышезаполненном файле.
+
+def foo():
+    file_name = "file"
+    path = os.path.join(os.getcwd(), file_name)
+    if os.path.exists(path):
+        os.remove(path)
+    with open(path, "a") as f:
+        for i in range(2500):
+            f.write(str(random.randint(0,9)))
+
+    with open(path, "r") as f:
+        file = f.read()
+
+    lst = [[file[0],1,0]]
+    for i in range(1, len(file)):
+        if file[i] == file[i-1]:
+            lst[-1][1] += 1
+        else:
+            lst.append([file[i], 1, i])
+    s = sorted(lst, key=lambda x: x[1])
+    print("\nЦифра {0} встретилась {1} {2} подряд".format(s[-1][0], s[-1][1], digit_to_word(s[-1][1])))
+
+
+def digit_to_word(digit):
+    digit = str(digit)
+    if digit[-1] in ["2", "3", "4"]:
+        return "раза"
+    return "раз"
+
+
+foo()
+# ------------------------------TEST----------------------------------------------
+
+
+class Test(unittest.TestCase):
+    def test_upper_surround(self):
+        # compare results of two functions
+        self.assertEqual(upper_surround(line), upper_surround_re(line))
+
+
+if __name__ == "__main__":
+    unittest.main()
