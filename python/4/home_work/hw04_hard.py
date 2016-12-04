@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import re
 import unittest
-import random
-import os
 from functools import reduce
 
 __author__ = "Victor Klimov"
@@ -18,21 +15,17 @@ matrix = [[1, 0, 8],
           [3, 4, 1],
           [0, 4, 2]]
 
-# matrix[x][y]
-# print(matrix)
-# razm = len(matrix[0])
-# m = [el for row in matrix for el in row]
-#
-# for i in range(razm)
-# print(m)
-
 # Выполнить поворот (транспонирование) матрицы
 # Пример. Результат:
-# matrix_rotate = [[1, 3, 0],
-#                  [0, 4, 4],
-#                  [8, 1, 2]]
+matrix_rotate = [[1, 3, 0],
+                 [0, 4, 4],
+                 [8, 1, 2]]
 
 # Суть сложности hard: Решите задачу в одну строку
+
+
+def transposition(matrix): return [list(x) for x in zip(*matrix)]
+
 
 # Задание-2:
 # Найдите наибольшее произведение пяти последовательных цифр в 1000-значном числе.
@@ -66,14 +59,14 @@ def foo():
     number = number.replace("\n", "")
     lst = []
     for i in range(1000-5+1):
-        multiply = reduce(lambda x, y: x*y, map(int,number[i:i+5]))
+        multiply = reduce(lambda x, y: x * y, map(int, number[i:i+5]))
         lst.append([multiply, i])
     new = sorted(lst, key=lambda x: x[0])
     print("Наибольшее произведение - {}, индекс смещения первого числа последовательноси - {}"
           .format(new[-1][0], new[-1][1]))
 
 
-foo()
+# foo()
 
 
 # Задание-3 (Ферзи):
@@ -81,3 +74,47 @@ foo()
 # Вам дана расстановка 8 ферзей на доске. Определите, есть ли среди них пара бьющих друг друга.
 # Программа получает на вход восемь пар чисел, каждое число от 1 до 8 — координаты 8 ферзей.
 # Если ферзи не бьют друг друга, выведите слово NO, иначе выведите YES.
+
+
+def is_any_queen_in_danger(*args):
+    d = {}
+    for queen in args:
+        steps = []
+        for add_x, add_y in [(1, 1), (-1, -1), (1, -1), (-1, 1), (1, 0), (0, 1), (-1, 0), (0, -1)]:
+            steps.extend(fill(queen[0], queen[1], add_x, add_y))
+        d[queen] = steps
+    for queen in args:
+        for some in d:
+            if queen != some:
+                if some in d[queen]:
+                    return "YES"
+    return "NO"
+
+
+def fill(x, y, add_x, add_y):
+    steps = []
+    x += add_x
+    y += add_y
+    while 0 <= x <= 7 and 0 <= y <= 7:
+        steps.append((x, y))
+        x += add_x
+        y += add_y
+    return steps
+
+
+# ----------------------------------TEST-----------------------------------------
+
+
+class Test(unittest.TestCase):
+    def test_transposition(self):
+        self.assertEqual(transposition(matrix), matrix_rotate)
+
+    def test_is_any_queen_in_danger(self):
+        self.assertEqual(is_any_queen_in_danger((3, 0), (6, 1), (2, 2), (7, 3),
+                                                (1, 4), (4, 5), (0, 6), (5, 7)), "NO")
+        self.assertEqual(is_any_queen_in_danger((3, 0), (6, 0), (2, 2), (7, 3),
+                                                (1, 4), (4, 5), (0, 6), (5, 7)), "YES")
+
+
+if __name__ == "__main__":
+    unittest.main()
