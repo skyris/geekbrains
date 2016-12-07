@@ -24,6 +24,8 @@ matrix_rotate = [[1, 3, 0],
 # Суть сложности hard: Решите задачу в одну строку
 
 
+tmp = [[x[y] for x in matrix] for y in range(3)]
+
 def transposition(matrix): return [list(x) for x in zip(*matrix)]
 
 
@@ -66,7 +68,7 @@ def foo():
           .format(new[-1][0], new[-1][1]))
 
 
-# foo()
+foo()
 
 
 # Задание-3 (Ферзи):
