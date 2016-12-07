@@ -39,7 +39,7 @@ def list_of_folders(path):
 
 
 # one-liner with the same functionality
-print(sorted(filter(os.path.isdir, os.listdir(os.getcwd()))))
+# print(sorted(filter(os.path.isdir, os.listdir(os.getcwd()))))
 
 
 # Задача-3:
@@ -52,7 +52,7 @@ def copy_current_file(new_name, *, force=False):
 
 def test_copy_current_file_unix(new_name):
     if os.name == "posix" and shutil.which("diff"):
-        info = list(os.popen("diff {} {}".format(__file__, new_name)))
+        info = "".join(os.popen("diff {} {}".format(__file__, new_name)))
         return True if not info else info
 
 
