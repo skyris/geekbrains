@@ -24,8 +24,15 @@ __copyright__ = "Creative Commons License"
 # оформленные в виде соответствующих функций, и импортированные в данный файл из easy.py
 
 
-# Поменял ТЗ. Было интересно разобраться с модулем cmd
-# Сделал мини оболочку с несколькими unix-подобными командами
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
 
 
 class Shell(cmd.Cmd):
@@ -39,7 +46,8 @@ class Shell(cmd.Cmd):
     except Exception:
         user = "User"
         host = "LocalHost"
-    prompt = "{}@{} ~ {} > ".format(user, host, current_dir)
+    prompt = bcolors.OKGREEN + "{}@{}".format(user, host) + bcolors.OKBLUE + \
+             " {} > ".format(current_dir)+bcolors.ENDC
 
     def do_man(self, arg):
         "man - alias for standard help command"
@@ -60,8 +68,11 @@ class Shell(cmd.Cmd):
             os.chdir(next_dir)
             self.current_dir = next_dir
         except FileNotFoundError:
-            print("There is no such directory: {}".format(arg))
-        self.prompt = "{}@{} ~ {} > ".format(self.user, self.host, self.current_dir)
+            res = "There is no such directory: {}".format(arg)
+            print(bcolors.WARNING+res+bcolors.ENDC)
+
+        self.prompt = bcolors.OKGREEN + "{}@{}".format(self.user, self.host) + bcolors.OKBLUE + \
+                      " {} > ".format(self.current_dir)+bcolors.ENDC
 
     def do_ls(self, arg):
         "ls - list current directory folders"
@@ -70,8 +81,10 @@ class Shell(cmd.Cmd):
         else:
             dir_to_watch = arg
         res = list_of_folders(dir_to_watch)
+        if res == "There is no such folder":
+            res = bcolors.WARNING+res+bcolors.ENDC
         if not res:
-            res = "This directory does not have folders"
+            res = bcolors.WARNING+"This directory does not have folders"+bcolors.ENDC
         print(res)
     def do_mkdir(self, arg):
         "mkdir - make directories"
@@ -85,9 +98,11 @@ class Shell(cmd.Cmd):
 
             create_dirs(*paths)
         else:
-            print("Name of a new directory was not set.")
+            res = "Name of a new directory was not set."
+            print(bcolors.WARNING + res + bcolors.ENDC)
+
     def do_rmdir(self, arg):
-        "rm - remove directories (empty or nonempty)"
+        "rmdir - remove directories (empty or nonempty)"
         if arg:
 
             if arg.startswith("/"):
@@ -98,15 +113,21 @@ class Shell(cmd.Cmd):
 
             remove_dirs(*paths)
         else:
-            print("Name of folder to delete was not set.")
+            res = "Name of folder to delete was not set."
+            print(bcolors.WARNING + res + bcolors.ENDC)
+
+    def do_cp(self, arg):
+        "cp - copy files and directories"
 
     def do_exit(self, arg):
-        "Close the window, and exit shell"
+        "exit - close the window, and exit shell"
         print('Thank you for using tiny shell')
         return True
 
-# TODO Color parts of the text
-# TODO Add autocomplete for arguments of commands
+# TODO Add autocomplete for arguments of commands,
+# TODO Fix "workaround" from list_of_folders in do_ls method
+# TODO Make decorators for color?
+# TODO catch PermissionError:
 
 
 if __name__ == "__main__":
