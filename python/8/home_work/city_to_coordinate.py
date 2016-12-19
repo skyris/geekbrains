@@ -29,19 +29,13 @@ with open(path, "r") as f:
     for line in f:
         country  = country_patter.findall(line)
         city = city_pattern.findall(line)
-        print(line)
         if country:
             saved_country = country[0]
         if saved_country and city and not country :
             coord = city[0][0].replace("+", "").split(",")
             if len(coord) != 2:
                 continue
-            print("city",city[0][0])
-            print(coord)
             d[saved_country][city[0][1]] = coord
-            print(d)
-            print(saved_country)
-            print(city[0])
 
 
 print(d["Россия"])
