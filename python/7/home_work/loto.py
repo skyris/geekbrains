@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 
-from copy import deepcopy
 from itertools import islice
 from random import randint
 import os
@@ -80,7 +79,7 @@ class RandomNumberGenerator:
         return self
 
     def __next__(self):
-        if self.items_left():
+        if self.row:
             p = randint(0, self.items_left()-1)
             return self.row.pop(p)
         else:
@@ -115,7 +114,7 @@ class Card:
         matrix = [['', '', '', '', '', '', '', '', ''],
                   ['', '', '', '', '', '', '', '', ''],
                   ['', '', '', '', '', '', '', '', '']]
-        numbers_iter = iter(RandomNumberGenerator(1, 90))
+        numbers_iter = RandomNumberGenerator(1, 90)
         for row in range(3):
             numbers = sorted(islice(numbers_iter, 5))
             places = sorted(islice(RandomNumberGenerator(0, 8), 5))
@@ -132,6 +131,7 @@ class Card:
     def contains(self, digit):
         return digit in [val for row in self.content
                                     for val in row]
+
     def items_left(self):
         count = 0
         for row in self.content:
@@ -158,9 +158,9 @@ def dead_heat():
 
 
 def game():
-    rnd_ball_iter = iter(RandomNumberGenerator(1,90))
-    my_card= Card()
-    comp_card= Card()
+    rnd_ball_iter = RandomNumberGenerator(1, 90)
+    my_card = Card()
+    comp_card = Card()
 
     while rnd_ball_iter.items_left() and my_card.items_left() and comp_card.items_left():
         rnd_ball = next(rnd_ball_iter)
@@ -191,9 +191,12 @@ def game():
         dead_heat()
 
 
-game()
+if __name__ == "__main__":
+    game()
 
-def comp_fails():
+
+# TODO ---------------------------
+def comp_looser():
 
     # TODO curses?
     # TODO comp is inattentive
