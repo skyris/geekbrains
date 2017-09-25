@@ -35,7 +35,6 @@ Container.prototype.remove = function() {
       var regex = this.href + ".+?" + this.itemName; 
       html_length = Infinity;
       for(var elem of elems) {
-        console.log(elem.innerHTML.match(regex));
         if(elem.innerHTML.match(regex)) {
           curr_html_length  = elem.innerHTML.length;
           if (curr_html_length < html_length) {
@@ -62,12 +61,10 @@ Menu.prototype.render = function() {
   var result = "<ul" + this.addAttrClass() + this.addAttrId() + ">";  
   for (var item of this.nestedItems) {
     if(item instanceof MenuItem) {
-      //console.log(item.render());
       result += item.render();
     }
   }
   result += "</ul>";
-  //console.log(result);
   return result;
 }
 
@@ -119,6 +116,4 @@ menu.addNestedItems(m_items);
 
 
 var div = document.write(menu.render());
-//debugger;
-//m_item6.remove();
 setTimeout(function(){ m_item9.remove(); }, 3000);
