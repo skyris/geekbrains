@@ -17,70 +17,7 @@
     <div id="caption"></div>
 </div>
 
-<script>
-    // Get the modal
-    var modal = document.getElementById('myModal');
-    var modalImg = document.getElementById("modalImg ");
-    var captionText = document.getElementById("caption");
-    function modalOnClick(){
-          console.log(this);
-          modal.style.display = "block";
-          modalImg.src = this.src;
-          captionText.innerHTML = this.alt;
-    }
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
-</script>
-<script>
-
-    function generateClassPicture() {
-        var id = 0;
-        return function ({desc, path, thumbPath}) {
-            id += 1;
-            this.id = "img" + id;
-            this.desc = desc;
-            this.path = path;
-            this.thumbPath = thumbPath;
-        }
-    }
-    var Picture = generateClassPicture();
-
-    Picture.prototype.render= function() {
-        return "<img id='" + this.id + "' class='gallery' src='" + this.path + "'" +
-            " alt='" + this.desc + "' width='300' height='200'>";
-    };
-
-    Picture.prototype.makeElement = function() {
-        var img = document.createElement("img");
-        img.src = this.path;
-        img.id = this.id;
-        img.className = "gallery";
-        img.alt = this.desc;
-        img.width = "300";
-        img.height = "200";
-        return img;
-    };
-    var from_server = '[ {"desc": "Trolltunga, Norway","path": "images/img_fjords.jpg","thumbPath": "images/img_fjords.jpg"}, ' +
-        '{"desc": "Forest","path": "images/img_forest.jpg","thumbPath": "images/img_forest.jpg"}, ' +
-        '{"desc": "Northern Lightsy","path": "images/img_lights.jpg","thumbPath": "images/img_lights.jpg"}, ' +
-        '{"desc": "Mountain","path": "images/img_mountains.jpg","thumbPath": "images/img_mountains.jpg"}]';
-    var picsData = JSON.parse(from_server);
-    var galleryFrame = document.getElementById("galleryFrame");
-    var picturesArray = [];
-    for(var currPicData of picsData) {
-        var pictureElement = new Picture(currPicData);
-        var elem = pictureElement.makeElement();
-        elem.onclick = modalOnClick;
-        galleryFrame.appendChild(elem);
-        picturesArray.push(elem);
-    }
-</script>
+<script src="script.js" defer></script>
 
 </body>
 </html>

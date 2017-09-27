@@ -1,13 +1,13 @@
 const fs = require('fs')
 const express = require('express')
 
-var pictures_data = fs.readFileSync('json/pictures.json', 'utf8')
+var pictures_data = fs.readFileSync('public/pictures.json', 'utf8')
 const app = express()
 app.use(express.static('public'));
 const port = 5000
 
 app.get('/', (request, response) => {
-  response.sendfile('html/index.html')
+  response.sendfile('index.html')
 })
 
 
