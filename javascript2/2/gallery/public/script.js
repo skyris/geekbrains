@@ -60,12 +60,16 @@ var dataFromServer;
 xhr.onreadystatechange = function () {
    if(xhr.readyState == xhr.DONE && xhr.status == 200) {
      dataFromServer = JSON.parse(this.responseText);
-     for(var currData of dataFromServer ) {
-         var pictureElement = new Picture(currData);
-         var elem = pictureElement.makeElement();
-         elem.onclick = modalOnClick;
-         galleryFrame.appendChild(elem);
-         picturesArray.push(elem);
+     if(dataFromServer[0].result != "error") {
+       for(var currData of dataFromServer ) {
+           var pictureElement = new Picture(currData);
+           var elem = pictureElement.makeElement();
+           elem.onclick = modalOnClick;
+           galleryFrame.appendChild(elem);
+           picturesArray.push(elem);
+       }
+     } else {
+         console.log("Fail to load ajax");
      }
    }
 };

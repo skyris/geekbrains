@@ -30,7 +30,15 @@ app.get('/', (request, response) => {
 
 // Router for ajax
 app.get('/json/', (request, response) => {
-  response.send(pictures_data)
+    // Random error imitation
+    if(Math.random() < 0.8) {
+      response.send(pictures_data)
+    } else {
+      response.send(JSON.stringify(
+          [{result: 'error'}]
+      ))
+    }
+
 })
 
 app.listen(port, (err) => {
