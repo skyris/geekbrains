@@ -16,7 +16,6 @@
     box-sizing: border-box;
 }
 
-/*************************** Основные пункты **/
 
 #mainmenu {
     position: relative;
@@ -41,10 +40,10 @@
     margin: 50px auto;
     padding: 0;
     width: 960px;
-    z-index: 10/* для отображения подпунктов поверх остальных блоков */
+    z-index: 10;
 }
 
-#mainmenu ul, /* сбрасываем поля и отступы у списков */
+#mainmenu ul,
 #mainmenu ul ul,
 #mainmenu ul ul li {
     list-style: none;
@@ -95,7 +94,6 @@
     color: #fafafa
 }
 
-/** Индикатор наличия подкатегорий верхнего уровня **/
 
 #mainmenu > ul > li.parent > a::after {
     border-left: 1px solid #CCC;
@@ -113,7 +111,6 @@
     width: 5px;
 }
 
-/*************************** Выпадающие подпункты **/
 
 #mainmenu ul li ul {
     background: #444;
@@ -179,7 +176,6 @@
     border: none
 }
 
-/*************************** Выпадающие пункты второго уровня **/
 
 #mainmenu ul li ul li ul {
     top: 0;
@@ -194,7 +190,6 @@
     -webkit-box-shadow: -1px 0 0 rgba(255, 255, 255, .3);
 }
 
-/** Индикатор наличия подкатегорий 2 уровня **/
 
 #mainmenu > ul > li ul li.parent > a::after {
     border-left: 1px solid #CCC;
@@ -213,7 +208,6 @@
     float: right;
 }
 
-/********************** Стрелочки на подпунктах **/
 
 #mainmenu ul ul li:first-child > a {
     border-radius: 3px 3px 0 0;
