@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/jquery.js"></script>
+    <!--<script src="https://code.jquery.com/jquery-1.12.3.min.js"
+    integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>-->
+    <script src="js/forms.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+<div id="content">
+
+    <form action="" id="form">
+
+        <input id="name" type="text" placeholder="Enter your name">
+        <span id="name-feedback"></span><br>
+
+        <input id="phone" type="text" placeholder="Enter your phone number">
+        <span id="phone-feedback"></span><br>
+
+        <input id="email" type="text" placeholder="Enter your email">
+        <span id="email-feedback"></span><br>
+
+        <textarea id="message" name="some" placeholder="Enter some text" cols="30" rows="10"></textarea>
+        <span id="message-feedback"></span><br>
+
+        <input class="checkbox" id="cb" type="checkbox"><label for="cb">Check me</label>
+        <span id="checkbox-feedback"></span><br>
+
+        <input type="submit">
+    </form>
+    <div id="innerText"></div>
+
+</body>
+</html>
