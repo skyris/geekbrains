@@ -47,6 +47,7 @@
         destTextarea.innerHTML = srcTextarea.innerHTML.replace(/(\w)(\')(\w)/g, "$1<tempSubs>$3").
                                                         replace(/\'/g, "\"").replace(/\<tempSubs\>/g, "\'");
     }
+    var newtext = text.replace(/\B\'|\'\B/gm, '\"');
 </script>
 </html>
 
