@@ -1,0 +1,44 @@
+.isUp{
+    top: -465px;
+}
+
+#drag {
+    width: 120px;
+    height: 20px;
+    background-color: #0769ad;
+    float: right;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0px;
+}
+#feedback-form{
+    background-color: #0769ad;
+}
+
+#cont {
+    padding: 5px;
+    border: 5px 5px 5px 5px;
+    border-left: 30px;
+}
+
+.form-div {
+    width: 500px;
+}
+
+#city{
+    padding: 10px 10px;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+#cityname {
+    color: #5c4281;
+    background-color: #61AF6A;
+    -webkit-appearance: none;
+}
+
+input::-webkit-calendar-picker-indicator {
+    display: none;
+}
+

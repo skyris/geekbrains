@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/feedback.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/feedback.js"></script>
+</head>
+<body>
+<div id="cont" class="isUp col-md-4 col-md-offset-4" >
+    <div id="feedback-form" >
+       <form action="" class="form-div">
+           <datalist id="cityname">
+           </datalist>
+
+           <div class="form-group">
+               <input id="name" type="text" class="form-control"placeholder="Введите Ваше имя">
+           </div>
+           <div class="form-group">
+               <input id="email" type="text" class="form-control"placeholder="Введите email">
+           </div>
+           <div class="form-group">
+               <input id="phone" type="text" class="form-control"placeholder="Введите номер телефона">
+           </div>
+           <div class="form-group">
+               <input type="text" id="city" name="city" list="cityname" class="form-control" placeholder="Введите город">
+           </div>
+           <div class="form-group">
+               <textarea name="message" id="" cols="30" rows="10" class="form-control"placeholder="Введите сообщение"></textarea>
+           </div>
+       <button type="submit" class="btn">Send Message</button>
+       </form>
+    </div>
+    <div id="drag">feedback</div>
+</div>
+</body>
+</html>
