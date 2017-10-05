@@ -27,11 +27,11 @@ flag = False
 path = "./coordinates/raw_cities"
 with open(path, "r") as f:
     for line in f:
-        country  = country_patter.findall(line)
+        country = country_patter.findall(line)
         city = city_pattern.findall(line)
         if country:
             saved_country = country[0]
-        if saved_country and city and not country :
+        if saved_country and city and not country:
             coord = city[0][0].replace("+", "").split(",")
             if len(coord) != 2:
                 continue

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: url(http://subtlepatterns.com/patterns/use_your_illusion.png);
+            color: #eee;
+            font: 1em 'PT Sans', sans-serif;
+        }
+
+        .tabbed {
+            width: 700px;
+            margin: 50px auto;
+        }
+
+        .tabbed > input {
+            display: none;
+        }
+        .tabbed > label {
+            display: block;
+            float: left;
+            padding: 12px 20px;
+            margin-right: 5px;
+            cursor: pointer;
+            transition: background-color .3s;
+        }
+
+        .tabbed > label:hover,
+        .tabbed > input:checked + label {
+            background-color: #4EC6DE;
+
+        }
+        .tabs {
+           /* display: none; */
+            clear: both;
+        }
+
+        .tabs > div {
+            width: 700px;
+            position: absolute;
+            border: 2px solid #4EC6DE;
+            padding: 10px 30px 40px;
+            line-height: 1.4em;
+            opacity: 0;
+        }
+
+        #tab-nav-1:checked ~ .tabs > div:nth-of-type(1),
+        #tab-nav-2:checked ~ .tabs > div:nth-of-type(2),
+        #tab-nav-3:checked ~ .tabs > div:nth-of-type(3),
+        #tab-nav-4:checked ~ .tabs > div:nth-of-type(4) {
+            opacity: 1;
+        }
+    </style>
+        `
+</head>
+<body>
+<div class="tabbed">
+    <input type="radio" name="tabs" id="tab-nav-1" checked><label for="tab-nav-1">HTML</label>
+    <input type="radio" name="tabs" id="tab-nav-2"><label for="tab-nav-2">CSS</label>
+    <input type="radio" name="tabs" id="tab-nav-3"><label for="tab-nav-3">Javascript</label>
+    <input type="radio" name="tabs" id="tab-nav-4"><label for="tab-nav-4">Output</label>
+    <div class="tabs">
+        <div><h2>HTML</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad distinctio dolores est, et ex, harum impedit
+                in itaque maiores molestiae, molestias nihil quas. Error eum facere labore officia, quasi quidem.</p></div>
+        <div><h2>CSS</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad distinctio dolores est, et ex, harum impedit
+            in itaque maiores molestiae, molestias nihil quas. Error eum facere labore officia, quasi quidem.</p></div>
+        <div><h2>Javascript</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad distinctio dolores est, et ex, harum impedit
+            in itaque maiores molestiae, molestias nihil quas. Error eum facere labore officia, quasi quidem.</p></div>
+        <div><h2>Output</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad distinctio dolores est, et ex, harum impedit
+            in itaque maiores molestiae, molestias nihil quas. Error eum facere labore officia, quasi quidem.</p></div>
+    </div>
+</div>
+</body>
+</html>

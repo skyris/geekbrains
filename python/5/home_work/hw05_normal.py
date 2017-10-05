@@ -71,7 +71,7 @@ class Shell(cmd.Cmd):
             res = "There is no such directory: {}".format(arg)
             print(bcolors.WARNING+res+bcolors.ENDC)
 
-        self.prompt = bcolors.OKGREEN + "{}@{}".format(self.user, self.host) + bcolors.OKBLUE + \
+        self.prompt = bcolors.OKGREEN + "{}@{}".format(self.user, bcolors.FAIL+self.host+bcolors.ENDC) + bcolors.OKBLUE + \
                       " {} > ".format(self.current_dir)+bcolors.ENDC
 
     def do_ls(self, arg):

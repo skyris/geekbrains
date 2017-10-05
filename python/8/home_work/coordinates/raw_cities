@@ -1,0 +1,1654 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=Windows-1251">
+	<meta http-equiv="Content-Language" content="ru">
+	<title>Географические координаты городов мира</title>
+	<meta name="description" content="Географические координаты городов мира">
+	<link rel="stylesheet" type="text/css" href="http://erichware.info/css/style.css">
+	<link rel="icon" href="http://erichware.info/pic/ewinfo.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="http://erichware.info/pic/ewinfo.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Author" content="Гаузер Эрих, http://erichware.info">
+	<meta name="Copyright" content="Гаузер Эрих, http://erichware.info">
+	<meta name='yandex-verification' content='5642a164173b2354' />
+	<meta name="google-site-verification" content="JCAIXxREVolyEOw8seUBy6-pklb6qicfrB5ohxLmCc8" />
+	<meta NAME="webmoney.attestation.label" CONTENT="webmoney attestation label#01002DDC-6731-41F1-8F99-A5A954F4ADC4">
+	<script language="javascript">
+		var okno1 = new Array(); var okno2 = new Array();
+		okno1["i0"] = new Image(85,25); okno2["i0"] = new Image(85,25);
+		okno1["i1"] = new Image(75,25); okno2["i1"] = new Image(75,25);
+		okno1["i2"] = new Image(117,25); okno2["i2"] = new Image(117,25);
+		okno1["i3"] = new Image(90,25); okno2["i3"] = new Image(90,25);
+		okno1["i4"] = new Image(97,25); okno2["i4"] = new Image(97,25);
+		okno1["i5"] = new Image(75,25); okno2["i5"] = new Image(75,25);
+		okno1["i0"].src="/pic/knogla1.jpg"; okno2["i0"].src="/pic/knogla2.jpg";
+		okno1["i1"].src="/pic/knorab1.jpg"; okno2["i1"].src="/pic/knorab2.jpg";
+		okno1["i2"].src="/pic/knopro1.jpg"; okno2["i2"].src="/pic/knopro2.jpg";
+		okno1["i3"].src="/pic/knolit1.jpg"; okno2["i3"].src="/pic/knolit2.jpg";
+		okno1["i4"].src="/pic/knokon1.jpg"; okno2["i4"].src="/pic/knokon2.jpg";
+		okno1["i5"].src="/pic/knosta1.jpg"; okno2["i5"].src="/pic/knosta2.jpg";
+		function prixod(ima) { document.images[ima].src=okno2[ima].src;	}
+		function uxod(ima) { document.images[ima].src=okno1[ima].src; }
+	</script>
+</head>
+<body>
+
+	<div id="content">
+
+		<div id="header">
+			<div id="logo"><img src="/pic/ewcoverx.jpg" border="0"></div><br>
+			<div class="temy">
+				<a href="/" title="Главная"><img src="/pic/knogla1.jpg" border="0" name="i0" onmouseover="prixod('i0');" onmouseout="uxod('i0');" alt="Главная"></a>
+				<a href="/rabota.htm" title="Все о моей работе"><img src="/pic/knorab1.jpg" border="0" name="i1" onmouseover="prixod('i1');" onmouseout="uxod('i1');" alt="Работа"></a>
+				<a href="/public.htm" title="Научные статьи"><img src="/pic/knosta1.jpg" border="0" name="i5" onmouseover="prixod('i5');" onmouseout="uxod('i5');" alt="Статьи"></a>
+				<a href="/program.htm" title="Программы"><img src="/pic/knopro1.jpg" border="0" name="i2" onmouseover="prixod('i2');" onmouseout="uxod('i2');" alt="Программы"></a>
+				<a href="/posobia.htm" title="Пособия и справочные материалы"><img src="/pic/knolit1.jpg" border="0" name="i3" onmouseover="prixod('i3');" onmouseout="uxod('i3');" alt="Пособия"></a>
+				<a href="/kontakt.htm" title="Контакты и история сайта"><img src="/pic/knokon1.jpg" border="0" name="i4" onmouseover="prixod('i4');" onmouseout="uxod('i4');" alt="Контакты"></a>
+			</div>
+		</div>
+<br>
+		<div id="page">
+
+	<div id="main">
+
+	<h2>КООРДИНАТЫ ГОРОДОВ МИРА</h2><br>
+
+<div class="ruen">(In English: <a href="../../en/tutorial/geography/geocity.htm">World cities coordinates</a>)</div><br>
+
+<script type="text/javascript">
+	function parsek(stro) {
+		var F, L, SS;
+		F=stro.slice(0,7); L=stro.slice(8,15);
+		SS=' Широта: '+F+'\nДолгота: '+L;
+		document.getElementById('geo').value=SS;
+	}
+</script>
+
+<div class="rekla">
+<script type="text/javascript">
+    google_ad_client = "ca-pub-6365185784831750";
+    google_ad_slot = "7845778704";
+    google_ad_width = 320;
+    google_ad_height = 100;
+</script>
+<!-- ewinfo4 -->
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<script type="text/javascript">
+    google_ad_client = "ca-pub-6365185784831750";
+    google_ad_slot = "7845778704";
+    google_ad_width = 320;
+    google_ad_height = 100;
+</script>
+<!-- ewinfo4 -->
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<br>
+
+<p>На этой странице можно получить географические координаты (широту и долготу) различных городов мира. Сейчас тут представлены 784 города в 221 стране (или зависимой территории). Список городов и стран периодически пополняется.
+</p><p>
+Полученные значения географических координат городов могут быть, в частности, использованы для определения (достаточно точно) <a href="http://erichware.info/sposob/astron/solnce.htm" target="_blank">времени восхода и захода солнца</a> в данном городе и его окружении. Возможны и другие области применения.
+</p><p>
+ВНИМАНИЕ! Цифры после десятичной точки означают НЕ минуты, а сотые доли градуса!!! Напоминаю, что даже для экватора разница в 1 градус соответствует примерно 111 км. на поверхности Земли. Следовательно, для локализации любого города сотых долей градуса хватит с избытком.
+</p><p>
+Вы можете выделить мышью нужное значение, нажать ее правую кнопку и скопировать выбранное значение в буфер обмена.<br>
+Для широты и долготы знак "плюс" применяется для северного и восточного полушарий, знак "минус" - для южного и западного соответственно.
+</p><p>
+<a href="../../avtor/finansy.htm"><b>Выразить благодарность автору</b></a>.
+</p>
+<br><br>
+
+<div class="rekla">
+<script type="text/javascript">
+    google_ad_client = "ca-pub-6365185784831750";
+    google_ad_slot = "7845778704";
+    google_ad_width = 320;
+    google_ad_height = 100;
+</script>
+<!-- ewinfo4 -->
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<script type="text/javascript">
+    google_ad_client = "ca-pub-6365185784831750";
+    google_ad_slot = "7845778704";
+    google_ad_width = 320;
+    google_ad_height = 100;
+</script>
+<!-- ewinfo4 -->
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<br>
+
+<center>
+<b>Выберите интересующий вас город и прочитайте его координаты&nbsp;</b><textarea id="geo" rows="2" cols="20"></textarea>
+</center>
+<br><br>
+
+<table border="1" cellpadding="8" cellspacing="1" align="center"><tr>
+
+<td><table border="0" cellpadding="4" cellspacing="1" align="center">
+
+<tr>
+	<td><b>АВСТРАЛИЯ</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Австралия">
+		<option value="-034.92,+138.58">Аделаида
+		<option value="-034.35,+146.90">Ардлтан
+		<option value="-034.63,+143.56">Балранолд
+		<option value="-010.89,+142.39">Бамага
+		<option value="-027.47,+153.02">Брисбен
+		<option value="-012.21,+136.70">Ганянгара
+		<option value="-028.77,+114.60">Джералдтон
+		<option value="-029.25,+114.94">Донгара
+		<option value="-017.52,+146.03">Иннисфейл
+		<option value="-012.25,+136.90">Йерркала
+		<option value="-035.02,+137.61">Йорктаун
+		<option value="-014.28,+126.63">Каламбуру
+		<option value="-026.81,+153.11">Калаундра
+		<option value="-027.70,+114.15">Кальбари
+		<option value="-035.30,+149.12">Канберра
+		<option value="-024.88,+113.65">Карнарвон
+		<option value="-015.47,+145.25">Куктаун
+		<option value="-034.55,+146.40">Литон
+		<option value="-037.85,+149.91">Мельбурн
+		<option value="-034.20,+142.13">Милдьюра
+		<option value="-029.20,+116.00">Морава
+		<option value="-028.35,+114.63">Нортгемптон
+		<option value="-012.16,+136.77">Нуланбеи
+		<option value="-034.16,+140.75">Ренмарк
+		<option value="-033.85,+151.20">Сидней
+		<option value="-026.65,+113.79">Тамала
+		<option value="-034.43,+147.54">Темора
+		<option value="-030.10,+116.63">Уубин
+		<option value="-034.50,+144.83">Хей
+		<option value="-033.86,+121.89">Эсперанс
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>АЗЕРБАЙДЖАН</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Азербайджан">
+		<option value="+040.35,+049.85">Баку
+		<option value="+040.97,+047.84">Габала
+		<option value="+040.65,+047.74">Геокчай
+		<option value="+040.66,+048.30">Гянджа
+		<option value="+041.62,+046.63">Закаталы
+		<option value="+040.78,+048.15">Исмаиллы
+		<option value="+041.35,+048.50">Куба
+		<option value="+039.64,+046.55">Лачин
+		<option value="+038.75,+048.84">Ленкорань
+		<option value="+040.77,+047.04">Мингечаур
+		<option value="+039.18,+045.42">Нахичевань
+		<option value="+040.62,+048.63">Шамаха
+		<option value="+041.20,+047.17">Шеки
+		<option value="+039.80,+046.75">Ханкенди
+		<option value="+041.47,+048.80">Хачмас
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>АРГЕНТИНА</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Аргентина">
+		<option value="-038.72,-062.26">Баия-Бланка
+		<option value="-034.82,-058.33">Буэнос-Айрес
+		<option value="-031.39,-064.18">Кордова
+		<option value="-029.41,-066.85">Ла-Риоха
+		<option value="-038.95,-068.06">Неукен
+		<option value="-027.45,-058.98">Ресистенсия
+		<option value="-051.62,-069.22">Рио-Гальегос
+		<option value="-053.78,-067.70">Рио Гранде
+		<option value="-032.95,-060.67">Росарио
+		<option value="-043.30,-065.09">Росон
+		<option value="-024.78,-065.41">Сальта
+		<option value="-031.62,-060.70">Санта-Фе
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>БРАЗИЛИЯ</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Бразилия">
+		<option value="-015.75,-047.91">Бразилиа
+		<option value="-003.50,-039.57">Итапипока
+		<option value="-003.83,-062.05">Кодажас
+		<option value="-004.08,-063.14">Коари
+		<option value="-028.67,-049.37">Крисиума
+		<option value="-025.42,-049.27">Куритиба
+		<option value="+000.05,-051.06">Макапа
+		<option value="-003.10,-060.02">Манаус
+		<option value="-022.90,-043.21">Рио-де-Жанейро
+		<option value="-023.55,-046.64">Сан-Паулу
+		<option value="-005.08,-042.80">Терезина
+		<option value="-003.32,-064.72">Тефе
+		<option value="-002.87,-067.81">Тонантис
+		<option value="-002.50,-066.08">Фонти-Боа
+		<option value="-003.71,-038.54">Форталеза
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>ВЕЛИКОБРИТАНИЯ</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Великобритания">
+		<option value="+052.80,-004.70">Абердарон
+		<option value="+057.15,-002.07">Абердин
+		<option value="+054.51,-005.92">Белфаст
+		<option value="+052.49,-001.89">Бирмингем
+		<option value="+051.45,-002.60">Бристоль
+		<option value="+050.59,-001.20">Вентнор
+		<option value="+050.85,+000.57">Гастингс
+		<option value="+055.85,-004.25">Глазго
+		<option value="+053.52,-001.12">Донкастер
+		<option value="+050.93,-002.62">Йеавил
+		<option value="+053.95,-001.06">Йорк
+		<option value="+051.49,-003.16">Кардифф
+		<option value="+052.20,+000.11">Кембридж
+		<option value="+051.89,+000.89">Колчестер
+		<option value="+053.40,-003.00">Ливерпуль
+		<option value="+053.23,-000.53">Линкольн
+		<option value="+051.50,+000.12">Лондон
+		<option value="+053.47,-002.24">Манчестер
+		<option value="+051.27,+000.52">Мейдстон
+		<option value="+054.71,-003.50">Мэрипорт
+		<option value="+052.95,-001.15">Ноттингем
+		<option value="+057.50,-001.78">Питерхед
+		<option value="+050.37,-004.12">Плимут
+		<option value="+050.82,-001.07">Портсмут
+		<option value="+051.33,+001.42">Рамсгит
+		<option value="+052.77,+001.50">Сталхем
+		<option value="+056.12,-003.94">Стерлинг
+		<option value="+051.00,-003.10">Тонтон
+		<option value="+052.66,+000.15">Уисбек
+		<option value="+052.00,-004.98">Фишгард
+		<option value="+050.10,-005.26">Хелстон
+		<option value="+053.30,-004.64">Холихед
+		<option value="+051.74,+000.47">Челмсфорд
+		<option value="+053.37,-001.47">Шеффилд
+		<option value="+055.95,-003.19">Эдинбург
+	</optgroup>
+	<optgroup label="Джерси">
+		<option value="+049.19,-002.10">Сент-Хельер
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>ГЕРМАНИЯ</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Германия">
+		<option value="+048.75,+008.24">Баден-Баден
+		<option value="+052.44,+013.33">Берлин
+		<option value="+050.72,+007.07">Бонн
+		<option value="+053.06,+008.80">Бремен
+		<option value="+053.59,+010.00">Гамбург
+		<option value="+051.05,+013.72">Дрезден
+		<option value="+050.94,+006.95">Кельн
+		<option value="+051.33,+012.36">Ляйпциг
+		<option value="+049.48,+008.46">Маннгейм
+		<option value="+048.14,+011.53">Мюнхен
+		<option value="+049.45,+011.09">Нюрнберг
+		<option value="+047.98,+007.85">Фрайбург
+		<option value="+050.10,+008.67">Франкфурт-на-Майне
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>ИЗРАИЛЬ</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Израиль">
+		<option value="+031.80,+034.65">Ашдод
+		<option value="+031.65,+034.56">Ашкелон
+		<option value="+032.61,+035.29">Афула
+		<option value="+031.25,+034.79">Беэр-Шева
+		<option value="+031.52,+034.45">Газа
+		<option value="+031.75,+035.20">Иерусалим
+		<option value="+033.20,+035.57">Кирьят-Шмона
+		<option value="+032.70,+035.30">Назарет
+		<option value="+032.79,+035.52">Тверия
+		<option value="+032.06,+034.77">Тель-Авив
+		<option value="+032.82,+034.98">Хайфа
+		<option value="+029.55,+034.95">Эйлат
+		<option value="+031.54,+035.09">Эль-Халиль(Хеброн)
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>ИНДИЯ</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Индия">
+		<option value="+027.17,+078.00">Агра
+		<option value="+015.62,+077.26">Адони
+		<option value="+025.44,+081.85">Аллахабад
+		<option value="+009.50,+076.33">Аллеппи
+		<option value="+012.79,+078.72">Амбер
+		<option value="+014.66,+077.58">Анантапур
+		<option value="+010.16,+079.00">Арантанги
+		<option value="+008.35.+077.24">Аруманай
+		<option value="+019.87,+075.36">Аурангабад
+		<option value="+013.00,+077.60">Бангалор
+		<option value="+019.31,+084.79">Берхэмпер
+		<option value="+013.84,+075.69">Бхадравати
+		<option value="+025.32,+082.98">Варанаси
+		<option value="+017.69,+083.22">Вишакхапатнам
+		<option value="+026.91,+075.79">Джайпур
+		<option value="+026.91,+070.90">Джайсалмер
+		<option value="+022.46,+070.51">Джамнагар
+		<option value="+022.80,+086.20">Джамшедпур
+		<option value="+032.24,+076.33">Дхарамсала
+		<option value="+022.73,+075.85">Индор
+		<option value="+009.22,+078.50">Кадалади
+		<option value="+022.57,+088.36">Калькутта
+		<option value="+010.95,+078.06">Карур
+		<option value="+009.22,+078.78">Килакарай
+		<option value="+011.02,+076.95">Коимбатур
+		<option value="+008.87,+076.63">Коллам
+		<option value="+016.68,+074.24">Колхапур
+		<option value="+008.98,+076.76">Коттараккара
+		<option value="+030.90,+075.85">Лудхияна
+		<option value="+009.92,+078.12">Мадурай
+		<option value="+012.19,+076.64">Майсур
+		<option value="+012.91,+074.86">Мангалор
+		<option value="+015.27,+073.99">Маргао
+		<option value="+019.10,+073.05">Мумбай
+		<option value="+010.77,+079.82">Нагапаттинам
+		<option value="+008.60,+077.00">Недумангад
+		<option value="+008.16,+077.42">Нейджеркойл
+		<option value="+028.63,+077.22">Нью-Дели
+		<option value="+009.27,+079.22">Памбан
+		<option value="+015.50,+073.83">Панаджи
+		<option value="+025.61,+085.13">Патна
+		<option value="+010.75,+075.92">Поннани
+		<option value="+011.62,+092.72">Порт-Блэр
+		<option value="+008.32,+077.06">Пувар
+		<option value="+018.50,+073.85">Пуна
+		<option value="+009.45,+077.55">Раджапалайям
+		<option value="+016.98,+073.30">Ратнагири
+		<option value="+011.66,+078.14">Салем
+		<option value="+017.38,+078.50">Хайдарабад
+		<option value="+029.22,+079.51">Халдвани
+		<option value="+013.05,+080.25">Ченнаи
+		<option value="+013.31,+075.78">Чикмагалур
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>ИТАЛИЯ</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Италия">
+		<option value="+044.50,+011.33">Болонья
+		<option value="+045.43,+012.33">Венеция
+		<option value="+045.43,+011.00">Верона
+		<option value="+044.40,+008.94">Генуя
+		<option value="+045.45,+009.20">Милан
+		<option value="+040.82,+014.25">Неаполь
+		<option value="+045.40,+011.88">Падуя
+		<option value="+038.10,+013.37">Палермо
+		<option value="+041.88,+012.48">Рим
+		<option value="+044.05,+012.55">Римини
+		<option value="+043.82,+007.77">Сан-Ремо
+		<option value="+045.06,+007.69">Турин
+		<option value="+043.76,+011.25">Флоренция
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>КАНАДА</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Канада">
+		<option value="+050.27,-119.27">Вернон
+		<option value="+049.25,-123.00">Ванкувер
+		<option value="+049.88,-097.14">Виннипег
+		<option value="+051.00,-114.00">Калгари
+		<option value="+046.80,-071.24">Квебек
+		<option value="+044.24,-076.49">Кингстон
+		<option value="+048.16,-053.96">Кларенвилл
+		<option value="+049.68,-124.99">Кортни
+		<option value="+045.51,-073.63">Монреаль
+		<option value="+045.60,-075.70">Оттава
+		<option value="+044.30,-078.32">Питерборо
+		<option value="+050.73,-127.49">Порт Харди
+		<option value="+049.45,-120.50">Принстон
+		<option value="+050.45,-104.60">Реджайна
+		<option value="+047.55,-052.71">Сент-Джонс
+		<option value="+054.52,-128.60">Террас
+		<option value="+043.65,-079.37">Торонто
+		<option value="+050.11,-122.96">Уистлер
+		<option value="+053.54,-113.49">Эдмонтон
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>КИТАЙ</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Китай">
+		<option value="+038.88,+115.45">Баодин
+		<option value="+027.99,+120.69">Вэньчжоу
+		<option value="+022.59,+114.10">Гонконг
+		<option value="+023.12,+113.26">Гуандун
+		<option value="+038.90,+121.60">Далянь
+		<option value="+023.02,+113.75">Дунгуань
+		<option value="+040.67,+122.38">Инкоу
+		<option value="+039.53,+116.67">Ланфан
+		<option value="+029.64,+091.13">Лхаса
+		<option value="+038.85,+121.25">Люйшунь
+		<option value="+021.65,+110.92">Маомин
+		<option value="+040.37,+116.83">Миюнь
+		<option value="+026.65,+119.52">Ниндэ
+		<option value="+039.81,+116.34">Пекин
+		<option value="+025.35,+119.00">Путянь
+		<option value="+031.30,+120.54">Сучжоу
+		<option value="+030.66,+104.07">Сычуань
+		<option value="+024.36,+118.09">Сямынь
+		<option value="+041.89,+123.95">Фушунь
+		<option value="+040.70,+120.83">Хулудао
+		<option value="+038.03,+114.50">Хэбэй
+		<option value="+030.75,+120.75">Цзясин
+		<option value="+040.95,+117.95">Чэндэ
+		<option value="+031.25,+121.48">Шанхай
+		<option value="+022.78,+115.37">Шаньвэй
+		<option value="+029.24,+091.78">Шаньнань
+		<option value="+023.35,+116.67">Шаньтоу
+		<option value="+041.80,+123.42">Шеньян
+		<option value="+029.26,+088.88">Шигадзе
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>МЕКСИКА</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Мексика">
+		<option value="+021.88,-102.28">Агуаскальентес
+		<option value="+016.87,-099.89">Акапулько
+		<option value="+020.27,-098.95">Актопан
+		<option value="+019.19,-096.15">Веракрус
+		<option value="+020.67,-103.33">Гвадалахара
+		<option value="+018.15,-094.44">Коацакоалькос
+		<option value="+019.24,-103.72">Колима
+		<option value="+019.50,-099.10">Мехико
+		<option value="+026.91,-101.42">Монклова
+		<option value="+025.66,-100.31">Монтеррей
+		<option value="+027.47,-099.50">Нуэво-Ларедо
+		<option value="+020.23,-099.81">Полотитлан
+		<option value="+016.19,-095.19">Салина-Крус
+		<option value="+020.56,-100.38">Сантьяго-де-Керетаро
+		<option value="+022.25,-097.88">Тампико
+		<option value="+014.90,-092.25">Тапачула
+		<option value="+021.50,-104.90">Тепик
+		<option value="+019.42,-102.05">Уруапан
+		<option value="+026.55,-099.17">Фалькон
+		<option value="+028.63,-106.07">Чиуауа
+		<option value="+029.07,-110.96">Эрмосильо
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>НОВАЯ ЗЕЛАНДИЯ</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Новая Зеландия">
+		<option value="-043.80,+172.97">Акароа
+		<option value="-043.15,+172.73">Амберли
+		<option value="-043.91,+171.74">Ашбертон
+		<option value="-044.69,+169.13">Ванака
+		<option value="-041.29,+174.83">Веллингтон
+		<option value="-046.10,+168.94">Гор
+		<option value="-042.45,+171.20">Греймут
+		<option value="-046.40,+168.35">Инверкаргилл
+		<option value="-043.52,+172.64">Крайстчёрч
+		<option value="-045.03,+169.20">Кромвель
+		<option value="-041.79,+172.33">Мерчисон
+		<option value="-036.83,+174.76">Окленд
+		<option value="-041.33,+173.18">Ричмонд
+		<option value="-036.82,+175.70">Уитианга
+		<option value="-041.75,+171.60">Уэстпарк
+		<option value="-035.72,+174.33">Фангареи
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+</table></td>
+
+<td><table border="0" cellpadding="4" cellspacing="1" align="center">
+
+<tr>
+	<td><b>РОССИЯ</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Россия">
+		<option value="+055.90,+053.93">Агидель
+		<option value="+044.89,+037.33">Анапа
+		<option value="+052.51,+103.91">Ангарск
+		<option value="+084.50,+040.50">Архангельск
+		<option value="+046.35,+048.05">Астрахань
+		<option value="+053.30,+083.75">Барнаул
+		<option value="+050.55,+036.61">Белгород
+		<option value="+052.54,+085.22">Бийск
+		<option value="+053.31,+034.31">Брянск
+		<option value="+043.15,+131.90">Владивосток
+		<option value="+043.02,+044.67">Владикавказ
+		<option value="+056.10,+040.40">Владимир
+		<option value="+059.21,+039.85">Вологда
+		<option value="+051.65,+039.19">Воронеж
+		<option value="+043.30,+045.66">Грозный
+		<option value="+046.80,+060.70">Екатеринбург
+		<option value="+055.75,+052.05">Елабуга
+		<option value="+056.83,+053.22">Ижевск
+		<option value="+052.33,+104.25">Иркутск
+		<option value="+055.80,+049.10">Казань
+		<option value="+043.91,+042.71">Кисловодск
+		<option value="+045.03,+038.95">Краснодар
+		<option value="+056.00,+092.90">Красноярск
+		<option value="+055.45,+065.33">Курган
+		<option value="+051.74,+036.18">Курск
+		<option value="+052.60,+039.59">Липецк
+		<option value="+059.55,+150.60">Магадан
+		<option value="+042.80,+047.55">Махачкала
+		<option value="+053.73,+088.06">Междуреченск
+		<option value="+055.75,+037.50">Москва
+		<option value="+068.95,+033.10">Мурманск
+		<option value="+055.72,+052.42">Набережные Челны
+		<option value="+056.07,+054.25">Нефтекамск
+		<option value="+055.62,+051.80">Нижнекамск
+		<option value="+056.32,+044.00">Нижний Новгород
+		<option value="+058.54,+031.27">Новгород
+		<option value="+053.75,+087.10">Новокузнецк
+		<option value="+044.74,+037.76">Новороссийск
+		<option value="+055.00,+083.00">Новосибирск
+		<option value="+069.32,+088.21">Норильск
+		<option value="+054.95,+073.40">Омск
+		<option value="+052.97,+036.07">Орел
+		<option value="+051.76,+055.10">Оренбург
+		<option value="+058.00,+056.23">Пермь
+		<option value="+061.77,+034.35">Петрозаводск
+		<option value="+057.82,+028.31">Псков
+		<option value="+054.62,+039.74">Рязань
+		<option value="+066.52,+066.60">Салехард
+		<option value="+053.20,+050.15">Самара
+		<option value="+059.80,+030.30">Санкт-Петербург
+		<option value="+043.60,+039.72">Сочи
+		<option value="+061.25,+073.40">Сургут
+		<option value="+053.17,+048.46">Сызрань
+		<option value="+061.71,+051.11">Сыктывкар
+		<option value="+053.54,+049.41">Тольятти
+		<option value="+056.45,+084.95">Томск
+		<option value="+044.10,+039.07">Туапсе
+		<option value="+057.15,+065.50">Тюмень
+		<option value="+054.32,+048.39">Ульяновск
+		<option value="+054.76,+056.00">Уфа
+		<option value="+063.55,+053.67">Ухта
+		<option value="+048.50,+135.00">Хабаровск
+		<option value="+061.00,+069.00">Ханты-Мансийск
+		<option value="+055.15,+061.40">Челябинск
+		<option value="+046.30,+044.25">Элиста
+		<option value="+046.95,+142.74">Южно-Сахалинск
+		<option value="+062.03,+129.73">Якутск
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>США</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="США">
+		<option value="+040.60,-075.48">Аллентаун
+		<option value="+033.75,-084.40">Атланта
+		<option value="+044.80,-068.78">Бангор
+		<option value="+042.35,-071.05">Бостон
+		<option value="+038.90,-077.00">Вашингтон
+		<option value="+021.30,-157.85">Гонолулу
+		<option value="+036.06,-079.78">Гринсборо
+		<option value="+032.75,-096.81">Даллас
+		<option value="+036.55,-079.39">Данвилл
+		<option value="+039.75,-105.00">Денвер
+		<option value="+042.32,-083.03">Детройт
+		<option value="+039.15,-075.52">Довер
+		<option value="+022.89,-109.92">Кабо-Сан-Лукас
+		<option value="+036.31,-076.17">Камден
+		<option value="+041.50,-081.69">Кливленд
+		<option value="+038.84,-104.83">Колорадо-Спрингс
+		<option value="+034.05,-118.25">Лос-Анджелес
+		<option value="+025.75,-080.17">Майями
+		<option value="+034.00,-118.80">Малибу
+		<option value="+042.32,-122.87">Медфорд
+		<option value="+035.13,-090.03">Мемфис
+		<option value="+039.05,-074.85">Мидл
+		<option value="+036.17,-086.78">Нешвилл
+		<option value="+029.95,-090.07">Новый Орлеан
+		<option value="+040.66,-074.03">Нью-Йорк
+		<option value="+033.48,-082.00">Огаста
+		<option value="+035.48,-097.50">Оклахома-Сити
+		<option value="+042.64,-073.75">Олбани
+		<option value="+030.26,-097.75">Остин
+		<option value="+040.45,-080.00">Питсбург
+		<option value="+038.06,-075.52">Покомок Сити
+		<option value="+043.65,-070.25">Портленд(1)
+		<option value="+045.52,-122.66">Портленд(2)
+		<option value="+037.61,-077.46">Ричмонд
+		<option value="+029.45,-098.50">Сан-Антонио
+		<option value="+032.75,-117.20">Сан-Диего
+		<option value="+037.80,-122.40">Сан-Франциско
+		<option value="+034.45,-119.67">Санта-Барбара
+		<option value="+035.67,-105.95">Санта-Фе
+		<option value="+047.60,-122.33">Сиэтл
+		<option value="+038.35,-075.55">Солсбери
+		<option value="+039.03,-095.65">Топика
+		<option value="+034.24,-077.95">Уилмингтон
+		<option value="+039.95,-075.15">Филадельфия
+		<option value="+029.75,-095.35">Хьюстон
+		<option value="+032.76,-079.92">Чарльстон
+		<option value="+035.03,-085.30">Чаттануга
+		<option value="+041.90,-087.60">Чикаго
+		<option value="+044.05,-123.07">Юджин
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>ФРАНЦИЯ</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Франция">
+		<option value="+044.84,-000.58">Бордо
+		<option value="+048.40,-004.50">Брест
+		<option value="+043.55,+007.02">Канны
+		<option value="+045.40,+006.62">Куршевель
+		<option value="+050.62,+003.05">Лиль
+		<option value="+045.75,+004.84">Лион
+		<option value="+046.15,+001.15">Ля-Рошель
+		<option value="+043.26,+005.45">Марсель
+		<option value="+043.69,+007.25">Ницца
+		<option value="+047.90,+001.90">Орлеан
+		<option value="+048.86,+002.37">Париж
+		<option value="+049.44,+001.09">Руан
+		<option value="+048.59,+007.74">Страсбург
+		<option value="+043.60,+001.44">Тулуза
+		<option value="+047.72,-001.37">Шатобриан
+		<option value="+049.63,-001.62">Шербур-Октевиль
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>ЯПОНИЯ</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Япония">
+		<option value="+044.02,+144.27">Абасири
+		<option value="+045.40,+141.67">Вакканай
+		<option value="+034.06,+133.00">Имабари
+		<option value="+035.44,+139.63">Иокогама
+		<option value="+035.00,+135.76">Киото
+		<option value="+041.41,+140.10">Мацумаэ
+		<option value="+032.66,+130.30">Минамисимабара
+		<option value="+042.30,+140.96">Муроран
+		<option value="+041.28,+141.17">Муцу
+		<option value="+032.75,+129.85">Нагасаки
+		<option value="+034.37,+131.17">Нагато
+		<option value="+041.52,+140.90">Ома
+		<option value="+034.70,+135.50">Осака
+		<option value="+032.94,+129.63">Сайкай
+		<option value="+043.05,+141.35">Саппоро
+		<option value="+032.80,+130.36">Симабара
+		<option value="+032.70,+139.70">Токио
+		<option value="+034.07,+134.55">Токусима
+		<option value="+033.21,+132.55">Увадзима
+		<option value="+032.85,+130.18">Ундзен
+		<option value="+033.58,+130.40">Фукуока
+		<option value="+037.75,+140.47">Фукусима
+		<option value="+034.40,+132.45">Хиросима
+		<option value="+034.17,+131.46">Ямагути
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr><td><hr></td><td><hr></td></tr>
+
+<tr>
+	<td><b>АЗИЯ</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Афганистан">
+		<option value="+034.37,+062.20">Герат
+		<option value="+034.60,+069.18">Кабул
+		<option value="+031.62,+065.72">Кандагар
+	</optgroup>
+	<optgroup label="Бангладеш">
+		<option value="+023.71,+090.40">Дакка
+	</optgroup>
+	<optgroup label="Бутан">
+		<option value="+027.93,+089.63">Тхимпху
+	</optgroup>
+	<optgroup label="Иран">
+		<option value="+028.92,+050.83">Бушир
+		<option value="+036.30,+059.60">Мешхед
+		<option value="+038.08,+046.25">Тебриз
+		<option value="+035.71,+051.44">Тегеран
+		<option value="+037.55,+045.10">Урмия
+		<option value="+029.62,+052.51">Шираз
+		<option value="+032.65,+051.68">Эсфахан
+	</optgroup>
+	<optgroup label="Мальдивские острова">
+		<option value="+004.17,+073.51">Мале
+	</optgroup>
+	<optgroup label="Мьянма">
+		<option value="+019.74,+096.10">Нейпьидо
+	</optgroup>
+	<optgroup label="Непал">
+		<option value="+027.70,+085.33">Катманду
+	</optgroup>
+	<optgroup label="Пакистан">
+		<option value="+033.75,+073.15">Исламабад
+		<option value="+024.89,+067.02">Карачи
+	</optgroup>
+	<optgroup label="Таиланд">
+		<option value="+013.82,+100.66">Бангкок
+		<option value="+012.94,+100.91">Паттайя
+	</optgroup>
+	<optgroup label="Турция">
+		<option value="+039.91,+032.85">Анкара
+		<option value="+036.88,+030.70">Анталья
+		<option value="+040.28,+029.05">Бурса
+		<option value="+038.50,+043.38">Ван
+		<option value="+038.41,+027.11">Измир
+		<option value="+036.79,+034.64">Мерсин
+		<option value="+041.02,+028.95">Стамбул
+	</optgroup>
+	<optgroup label="Шри-Ланка">
+		<option value="+006.92,+079.85">Коломбо
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>АФРИКА</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Алжир">
+		<option value="+036.75,+003.03">Алжир
+	</optgroup>
+	<optgroup label="Ангола">
+		<option value="-008.84,+013.24">Луанда
+	</optgroup>
+	<optgroup label="Бенин">
+		<option value="+006.47,+002.62">Порто-Ново
+	</optgroup>
+	<optgroup label="Ботсвана">
+		<option value="-024.65,+025.91">Габороне
+	</optgroup>
+	<optgroup label="Буркина-Фасо">
+		<option value="+012.36,-001.52">Уагадугу
+	</optgroup>
+	<optgroup label="Бурунди">
+		<option value="-003.38,+029.35">Бужумбура
+	</optgroup>
+	<optgroup label="Габон">
+		<option value="+000.39,+009.45">Либревиль
+	</optgroup>
+	<optgroup label="Гамбия">
+		<option value="+013.45,-016.57">Банжул
+	</optgroup>
+	<optgroup label="Гана">
+		<option value="+005.55,-000.19">Аккра
+	</optgroup>
+	<optgroup label="Гвинея">
+		<option value="+009.55,-013.66">Конакри
+	</optgroup>
+	<optgroup label="Гвинея-Бисау">
+		<option value="+011.86,-015.60">Бисау
+	</optgroup>
+	<optgroup label="Д.Р.Конго (Заир)">
+		<option value="-004.32,+015.31">Киншаса
+	</optgroup>
+	<optgroup label="Джибути">
+		<option value="+011.58,+043.15">Джибути
+	</optgroup>
+	<optgroup label="Египет">
+		<option value="+031.20,+029.92">Александрия
+		<option value="+024.09,+032.90">Асуан
+		<option value="+030.05,+031.25">Каир
+		<option value="+031.26,+032.30">Порт-Саид
+		<option value="+029.96,+032.55">Суэц
+		<option value="+027.91,+034.32">Шарм-эль-Шейх
+	</optgroup>
+	<optgroup label="Замбия">
+		<option value="-015.55,+028.39">Лусака
+	</optgroup>
+	<optgroup label="Зимбабве">
+		<option value="-017.82,+031.05">Хараре
+	</optgroup>
+	<optgroup label="Кабо-Верде">
+		<option value="+014.94,-023.52">Прая
+	</optgroup>
+	<optgroup label="Камерун">
+		<option value="+003.86,+011.52">Яунде
+	</optgroup>
+	<optgroup label="Кения">
+		<option value="-001.29,+036.82">Найроби
+	</optgroup>
+	<optgroup label="Коморские Острова">
+		<option value="-011.70,+043.25">Морони
+	</optgroup>
+	<optgroup label="Конго">
+		<option value="-004.26,+015.27">Браззавиль
+	</optgroup>
+	<optgroup label="Кот-д’Ивуар">
+		<option value="+005.34,-004.03">Абиджан
+		<option value="+006.81,-005.27">Ямусукро
+	</optgroup>
+	<optgroup label="Лесото">
+		<option value="-029.30,+027.50">Масеру
+	</optgroup>
+	<optgroup label="Ливия">
+		<option value="+032.12,+020.07">Бенгази
+		<option value="+032.88,+013.20">Триполи
+	</optgroup>
+	<optgroup label="Маврикий">
+		<option value="-020.15,+057.50">Порт-Луи
+	</optgroup>
+	<optgroup label="Мавритания">
+		<option value="+018.08,-015.97">Нуакшот
+	</optgroup>
+	<optgroup label="Мадагаскар">
+		<option value="-018.90,+047.55">Антананариву
+	</optgroup>
+	<optgroup label="Майотта">
+		<option value="-012.78,+045.22">Мамудзу
+	</optgroup>
+	<optgroup label="Малави">
+		<option value="-013.98,+033.78">Лилонегве
+	</optgroup>
+	<optgroup label="Мали">
+		<option value="+012.65,-008.00">Бамако
+	</optgroup>
+	<optgroup label="Марокко">
+		<option value="+031.63,-008.00">Марракеш
+		<option value="+034.00,-006.82">Рабат
+	</optgroup>
+	<optgroup label="Мозамбик">
+		<option value="-025.95,+032.58">Мапуто
+	</optgroup>
+	<optgroup label="Намибия">
+		<option value="-022.55,+017.08">Виндхук
+	</optgroup>
+	<optgroup label="Нигер">
+		<option value="+013.51,+002.11">Ниамей
+	</optgroup>
+	<optgroup label="Нигерия">
+		<option value="+009.06,+007.49">Абуджа
+	</optgroup>
+	<optgroup label="Остров Святой Елены">
+		<option value="-015.93,-005.70">Джеймстаун
+	</optgroup>
+	<optgroup label="Реюньон">
+		<option value="-020.87,+055.45">Сен-Дени
+	</optgroup>
+	<optgroup label="Руанда">
+		<option value="-001.95,+030.06">Кигали
+	</optgroup>
+	<optgroup label="Сан-Томе и Принсипе">
+		<option value="+000.34,+006.72">Сан-Томе
+		<option value="+001.64,+007.41">Санту-Антонью
+	</optgroup>
+	<optgroup label="Свазиленд">
+		<option value="-026.32,+031.15">Мбабане
+	</optgroup>
+	<optgroup label="Сейшельские острова">
+		<option value="-004.62,+055.45">Виктория
+	</optgroup>
+	<optgroup label="Сенегал">
+		<option value="+014.75,-017.33">Дакар
+	</optgroup>
+	<optgroup label="Сомали">
+		<option value="+002.04,+045.34">Могадишо
+	</optgroup>
+	<optgroup label="Судан">
+		<option value="+015.55,+032.53">Хартум
+	</optgroup>
+	<optgroup label="Сьерра-Леоне">
+		<option value="+008.48,-013.22">Фритаун
+	</optgroup>
+	<optgroup label="Танзания">
+		<option value="-006.11,+035.74">Додома
+		<option value="-006.16,+039.20">Занзибар
+	</optgroup>
+	<optgroup label="Того">
+		<option value="+006.14,+001.21">Ломе
+	</optgroup>
+	<optgroup label="Тунис">
+		<option value="+036.85,+010.17">Тунис
+	</optgroup>
+	<optgroup label="Уганда">
+		<option value="+000.31,+032.57">Кампала
+	</optgroup>
+	<optgroup label="ЦАР">
+		<option value="+004.36,+018.55">Банги
+	</optgroup>
+	<optgroup label="Чад">
+		<option value="+012.10,+015.05">Нджамена
+	</optgroup>
+	<optgroup label="Экваториальная Гвинея">
+		<option value="+003.75,+008.79">Малабо
+	</optgroup>
+	<optgroup label="Эритрея">
+		<option value="+015.33,+038.93">Асмара
+	</optgroup>
+	<optgroup label="Эфиопия">
+		<option value="+009.01,+038.75">Аддис-Абеба
+	</optgroup>
+	<optgroup label="ЮАР">
+		<option value="-028.45,+021.24">Апингтон
+		<option value="-029.85,+031.02">Дурбан
+		<option value="-026.19,+028.04">Йоханнесбург
+		<option value="-033.93,+018.42">Кейптаун
+		<option value="-033.92,+025.55">Порт-Элизабет
+		<option value="-025.73,+028.20">Претория
+	</optgroup>
+	<optgroup label="Южный Судан">
+		<option value="+004.85,+031.59">Джуба
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>БЛИЖНИЙ ВОСТОК</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Бахрейн">
+		<option value="+026.22,+050.57">Манама
+	</optgroup>
+	<optgroup label="Иордания">
+		<option value="+031.95,+035.95">Амман
+	</optgroup>
+	<optgroup label="Ирак">
+		<option value="+033.30,+044.35">Багдад
+		<option value="+030.50,+047.81">Басра
+	</optgroup>
+	<optgroup label="Йемен">
+		<option value="+015.35,+044.20">Сана
+	</optgroup>
+	<optgroup label="Катар">
+		<option value="+025.27,+051.52">Доха
+	</optgroup>
+	<optgroup label="Кувейт">
+		<option value="+029.37,+047.97">Эль-Кувейт
+	</optgroup>
+	<optgroup label="Ливан">
+		<option value="+033.90,+035.50">Бейрут
+		<option value="+034.44,+035.82">Триполи
+	</optgroup>
+	<optgroup label="ОАЭ">
+		<option value="+024.47,+054.35">Абу-Даби
+		<option value="+025.25,+055.30">Дубай
+	</optgroup>
+	<optgroup label="Оман">
+		<option value="+023.62,+058.60">Маскат
+		<option value="+024.38,+056.73">Сухар
+	</optgroup>
+	<optgroup label="Саудовская Аравия">
+		<option value="+024.45,+039.62">Медина
+		<option value="+021.43,+039.81">Мекка
+		<option value="+024.68,+046.70">Эр-Рияд
+	</optgroup>
+	<optgroup label="Сирия">
+		<option value="+036.20,+037.15">Алеппо
+		<option value="+033.50,+036.28">Дамаск
+		<option value="+034.74,+036.73">Хомс
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>ДАЛЬНИЙ ВОСТОК</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Бруней">
+		<option value="+004.88,+114.93">Бандар-Сери-Бегаван
+	</optgroup>
+	<optgroup label="Восточный Тимор">
+		<option value="-008.53,+125.60">Дили
+		<option value="-008.50,+127.00">Лос Палос
+	</optgroup>
+	<optgroup label="Вьетнам">
+		<option value="+021.04,+105.85">Ханой
+		<option value="+010.75,+106.66">Хошимин
+	</optgroup>
+	<optgroup label="Индонезия">
+		<option value="-008.65,+115.22">Денпасар
+		<option value="+006.20,+106.83">Джакарта
+		<option value="-005.12,+119.41">Макасар
+		<option value="-007.75,+113.20">Проболинго
+		<option value="-000.50,+117.15">Самаринда
+		<option value="+003.31,+117.64">Таракан
+	</optgroup>
+	<optgroup label="Камбоджа">
+		<option value="+011.57,+104.87">Пномпень
+	</optgroup>
+	<optgroup label="Лаос">
+		<option value="+017.96,+102.61">Вьентьян
+	</optgroup>
+	<optgroup label="Малайзия">
+		<option value="+006.12,+102.25">Кота-Бару
+		<option value="+003.13,+101.70">Куала-Лумпур
+	</optgroup>
+	<optgroup label="Монголия">
+		<option value="+047.92,+107.00">Улан-Батор
+	</optgroup>
+	<optgroup label="Северная Корея">
+		<option value="+039.00,+125.75">Пхеньян
+	</optgroup>
+	<optgroup label="Сингапур">
+		<option value="+001.30,+103.83">Сингапур
+	</optgroup>
+	<optgroup label="Тайвань">
+		<option value="+022.30,+120.88">Дарен
+		<option value="+022.15,+120.78">Мудан
+		<option value="+023.92,+120.67">Наньтоу
+		<option value="+024.20,+121.53">Сиолин
+		<option value="+025.10,+121.55">Тайбей
+		<option value="+023.97,+121.60">Хуалянь
+	</optgroup>
+	<optgroup label="Филиппины">
+		<option value="+009.30,+123.25">Думагете
+		<option value="+010.73,+122.55">Илоило
+		<option value="+014.60,+121.00">Манила
+		<option value="+007.84,+123.44">Пагадиан
+		<option value="+012.34,+121.06">Сан-Хосе
+		<option value="+009.68,+123.87">Тагбиларан
+	</optgroup>
+	<optgroup label="Южная Корея">
+		<option value="+035.19,+129.07">Бусан
+		<option value="+035.15,+126.85">Кванджу
+		<option value="+037.37,+128.39">Пхёнчхан
+		<option value="+037.55,+126.96">Сеул
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>ЕВРОПА</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="(Микро)">
+		<option value="+041.90,+012.45">Ватикан
+		<option value="+036.12,-005.35">Гибралтар
+		<option value="+049.60,+006.15">Люксембург
+		<option value="+043.74,+007.28">Монако
+		<option value="+043.92,+012.43">Сан-Марино
+	</optgroup>
+	<optgroup label="Австрия">
+		<option value="+048.20,+016.36">Вена
+		<option value="+047.80,+013.03">Зальцбург
+	</optgroup>
+	<optgroup label="Албания">
+		<option value="+041.32,+019.81">Тирана
+	</optgroup>
+	<optgroup label="Андорра">
+		<option value="+042.50,+001.51">Андорра-ла-Велла
+	</optgroup>
+	<optgroup label="Бельгия">
+		<option value="+050.85,+004.34">Брюссель
+	</optgroup>
+	<optgroup label="Болгария">
+		<option value="+043.20,+027.90">Варна
+		<option value="+042.14,+024.75">Пловдив
+		<option value="+042.68,+023.31">София
+	</optgroup>
+	<optgroup label="Босния и Герцоговина">
+		<option value="+043.85,+018.46">Сараево
+	</optgroup>
+	<optgroup label="Венгрия">
+		<option value="+047.47,+019.03">Будапешт
+	</optgroup>
+	<optgroup label="Гренландия">
+		<option value="+064.18,-051.72">Нук
+	</optgroup>
+	<optgroup label="Греция">
+		<option value="+037.96,+023.72">Афины
+		<option value="+040.64,+022.94">Салоники
+	</optgroup>
+	<optgroup label="Дания">
+		<option value="+055.66,+012.57">Копенгаген
+	</optgroup>
+	<optgroup label="Ирландия">
+		<option value="+053.35,-006.25">Дублин
+	</optgroup>
+	<optgroup label="Исландия">
+		<option value="+064.14,-021.90">Рейкьявик
+	</optgroup>
+	<optgroup label="Испания">
+		<option value="+041.40,+002.17">Барселона
+		<option value="+039.47,+000.37">Валенсия
+		<option value="+037.17,-003.60">Гранада
+		<option value="+037.89,-004.77">Кордоба
+		<option value="+038.09,-003.63">Линарес
+		<option value="+040.42,+003.70">Мадрид
+		<option value="+037.39,-006.00">Севилья
+		<option value="+039.86,-004.02">Толедо
+		<option value="+036.69,-006.13">Херес
+	</optgroup>
+	<optgroup label="Кипр">
+		<option value="+035.16,+033.35">Никосия/Лефкоша
+	</optgroup>
+	<optgroup label="Латвия">
+		<option value="+056.50,+021.00">Лиепая
+		<option value="+056.95,+024.10">Рига
+	</optgroup>
+	<optgroup label="Литва">
+		<option value="+054.68,+025.25">Вильнюс
+		<option value="+054.90,+023.89">Каунас
+		<option value="+055.70,+021.14">Клайпеда
+	</optgroup>
+	<optgroup label="Лихтенштейн">
+		<option value="+047.05,+009.50">Бальцерс
+		<option value="+047.14,+009.52">Вадуц
+	</optgroup>
+	<optgroup label="Македония">
+		<option value="+042.00,+021.45">Скопье
+	</optgroup>
+	<optgroup label="Мальта">
+		<option value="+035.89,+014.51">Валетта
+	</optgroup>
+	<optgroup label="Нидерданды">
+		<option value="+052.37,+004.91">Амстердам
+		<option value="+052.07,+004.29">Гаага
+	</optgroup>
+	<optgroup label="Норвегия">
+		<option value="+059.90,+010.75">Осло
+	</optgroup>
+	<optgroup label="Польша">
+		<option value="+052.22,+021.00">Варшава
+		<option value="+054.35,+018.65">Гданьск
+		<option value="+050.07,+019.92">Краков
+	</optgroup>
+	<optgroup label="Португалия">
+		<option value="+038.71,-009.15">Лиссабон
+	</optgroup>
+	<optgroup label="Румыния">
+		<option value="+044.33,+026.10">Бухарест
+	</optgroup>
+	<optgroup label="Сербия">
+		<option value="+044.60,+020.45">Белград
+		<option value="+043.31,+021.89">Ниш
+		<option value="+042.65,+021.15">Приштина
+	</optgroup>
+	<optgroup label="Словакия">
+		<option value="+048.14,+017.10">Братислава
+	</optgroup>
+	<optgroup label="Словения">
+		<option value="+046.04,+014.50">Любляна
+	</optgroup>
+	<optgroup label="Фарерские острова">
+		<option value="+062.02,-006.77">Торсхавн
+	</optgroup>
+	<optgroup label="Финляндия">
+		<option value="+060.17,+024.95">Хельсинки
+	</optgroup>
+	<optgroup label="Хорватия">
+		<option value="+045.81,+015.97">Загреб
+	</optgroup>
+	<optgroup label="Черногория">
+		<option value="+042.43,+019.25">Подгорица
+	</optgroup>
+	<optgroup label="Чехия">
+		<option value="+049.18,+016.60">Брно
+		<option value="+050.23,+012.77">Карловы Вары
+		<option value="+050.08,+014.40">Прага
+	</optgroup>
+	<optgroup label="Швейцария">
+		<option value="+047.55,+007.58">Базель
+		<option value="+046.94,+007.44">Берн
+		<option value="+046.80,+009.84">Давос
+		<option value="+046.19,+006.14">Женева
+		<option value="+046.52,+006.62">Лозанна
+		<option value="+047.05,+008.33">Люцерн
+		<option value="+047.37,+008.54">Цюрих
+	</optgroup>
+	<optgroup label="Швеция">
+		<option value="+057.70,+011.95">Гётеборг
+		<option value="+055.60,+012.99">Мальмё
+		<option value="+059.33,+018.05">Стокгольм
+	</optgroup>
+	<optgroup label="Шпицберген">
+		<option value="+078.22,+015.64">Лонгьир
+	</optgroup>
+	<optgroup label="Эстония">
+		<option value="+059.45,+024.75">Таллинн
+		<option value="+058.37,+026.72">Тарту
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>ОКЕАНИЯ</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Вануату">
+		<option value="-017.75,+168.33">Порт-Вила
+	</optgroup>
+	<optgroup label="Гуам">
+		<option value="+013.48,+144.75">Хагатна
+	</optgroup>
+	<optgroup label="Западное Самоа">
+		<option value="-013.82,-171.75">Апиа
+	</optgroup>
+	<optgroup label="Кирибати">
+		<option value="+001.32,+172.98">Баирики
+	</optgroup>
+	<optgroup label="Марианские острова">
+		<option value="+015.17,+145.75">Сайпан
+	</optgroup>
+	<optgroup label="Микронезия">
+		<option value="+006.90,+158.15">Паликир
+	</optgroup>
+	<optgroup label="Науру">
+		<option value="-000.54,+166.93">Ярен
+	</optgroup>
+	<optgroup label="Ниуэ">
+		<option value="-019.05,-169.92">Алофи
+	</optgroup>
+	<optgroup label="Новая Каледония">
+		<option value="-022.27,+166.46">Нумеа
+	</optgroup>
+	<optgroup label="Остров Норфолк">
+		<option value="-029.05,+167.96">Кингстон
+	</optgroup>
+	<optgroup label="Острова Кука">
+		<option value="-021.20,-159.76">Аваруа
+	</optgroup>
+	<optgroup label="Палау">
+		<option value="+007.50,+134.62">Мелекеок
+	</optgroup>
+	<optgroup label="Папуа-Новая Гвинея">
+		<option value="-009.50,+147.17">Порт-Морсби
+	</optgroup>
+	<optgroup label="Питкэрн">
+		<option value="-025.06,-130.10">Адамстаун
+	</optgroup>
+	<optgroup label="Соломоновы Острова">
+		<option value="-009.42,+159.95">Хониара
+	</optgroup>
+	<optgroup label="Токелау">
+		<option value="-008.52,-172.51">Атафу
+	</optgroup>
+	<optgroup label="Тонга">
+		<option value="-021.13,-175.19">Нукуалофа
+	</optgroup>
+	<optgroup label="Тувалу">
+		<option value="-007.49,+178.68">Ваитупу
+		<option value="-008.52,+179.19">Ваиаку (Фунафути)
+	</optgroup>
+	<optgroup label="Уоллис и Футуна">
+		<option value="-013.28,-176.17">Мата-Уту
+	</optgroup>
+	<optgroup label="Фиджи">
+		<option value="-018.15,+178.42">Сува
+	</optgroup>
+	<optgroup label="Французская Полинезия">
+		<option value="-017.52,-149.57">Папеэте (Таити)
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>СТРАНЫ СНГ</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Армения">
+		<option value="+040.78,+043.84">Гюмри
+		<option value="+040.17,+044.50">Ереван
+		<option value="+040.50,+044.75">Раздан
+	</optgroup>
+	<optgroup label="Белоруссия">
+		<option value="+052.14,+023.65">Брест
+		<option value="+052.44,+030.98">Гомель
+		<option value="+054.00,+027.60">Минск
+	</optgroup>
+	<optgroup label="Грузия">
+		<option value="+041.74,+043.52">Бакуриани
+		<option value="+041.63,+041.63">Батуми
+		<option value="+042.25,+042.68">Кутаиси
+		<option value="+042.13,+041.67">Поти
+		<option value="+043.00,+041.00">Сухуми
+		<option value="+041.71,+044.84">Тбилиси
+		<option value="+042.23,+043.95">Цхинвали
+	</optgroup>
+	<optgroup label="Казахстан">
+		<option value="+043.63,+051.17">Актау
+		<option value="+051.16,+071.45">Астана
+		<option value="+043.25,+076.90">Алма-Ата
+		<option value="+045.62,+063.32">Байконур
+		<option value="+049.82,+073.15">Караганда
+		<option value="+045.91,+063.31">Космодром
+		<option value="+053.20,+063.60">Кустанай
+		<option value="+051.24,+051.37">Уральск
+		<option value="+042.30,+069.58">Шымкент
+	</optgroup>
+	<optgroup label="Киргизия">
+		<option value="+042.86,+074.60">Бишкек
+	</optgroup>
+	<optgroup label="Молдавия">
+		<option value="+047.01,+028.83">Кишинев
+		<option value="+046.83,+029.63">Тирасполь
+	</optgroup>
+	<optgroup label="Таджикистан">
+		<option value="+038.54,+068.77">Душанбе
+	</optgroup>
+	<optgroup label="Туркменистан">
+		<option value="+038.95,+058.28">Ашхабад
+		<option value="+039.50,+054.36">Балканабад
+		<option value="+035.26,+062.32">Кушка
+		<option value="+037.60,+061.86">Мары
+		<option value="+040.02,+052.95">Туркменбашы
+		<option value="+039.07,+063.56">Чарджоу
+	</optgroup>
+	<optgroup label="Узбекистан">
+		<option value="+039.65,+066.93">Самарканд
+		<option value="+041.26,+069.20">Ташкент
+	</optgroup>
+	<optgroup label="Украина">
+		<option value="+048.02,+037.80">Донецк
+		<option value="+050.25,+028.65">Житомир
+		<option value="+050.40,+030.50">Киев
+		<option value="+049.82,+024.03">Львов
+		<option value="+046.40,+030.80">Одесса
+		<option value="+049.58,+034.55">Полтава
+		<option value="+044.65,+033.65">Севастополь
+		<option value="+049.97,+036.25">Харьков
+		<option value="+051.48,+031.28">Чернигов
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>ЦЕНТРАЛЬНАЯ АМЕРИКА</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Американские Виргинские острова">
+		<option value="+018.34,-064.92">Шарлотта-Амалия
+	</optgroup>
+	<optgroup label="Ангилья">
+		<option value="+018.22,-063.05">Валли
+	</optgroup>
+	<optgroup label="Антигуа и Барбуда">
+		<option value="+017.11,-061.84">Сент-Джонс
+	</optgroup>
+	<optgroup label="Аруба">
+		<option value="+012.52,-070.02">Ораньестад
+	</optgroup>
+	<optgroup label="Багамские острова">
+		<option value="+025.06,-077.34">Нассау
+	</optgroup>
+	<optgroup label="Барбадос">
+		<option value="+013.10,-059.61">Бриджтаун
+	</optgroup>
+	<optgroup label="Белиз">
+		<option value="+017.25,-088.77">Бельмопан
+	</optgroup>
+	<optgroup label="Бермудские Острова">
+		<option value="+032.29,-064.78">Гамильтон
+	</optgroup>
+	<optgroup label="Британские Виргинские острова">
+		<option value="+018.42,-064.62">Род-Таун
+	</optgroup>
+	<optgroup label="Гаити">
+		<option value="+018.54,-072.34">Порт-о-Пренс
+	</optgroup>
+	<optgroup label="Гваделупа">
+		<option value="+016.00,-061.74">Бас-Тер
+	</optgroup>
+	<optgroup label="Гватемала">
+		<option value="+014.60,-090.50">Гватемала
+	</optgroup>
+	<optgroup label="Гондурас">
+		<option value="+014.08,-087.20">Тегусигальпа
+	</optgroup>
+	<optgroup label="Гренада">
+		<option value="+012.05,-061.75">Сент-Джорджес
+	</optgroup>
+	<optgroup label="Доминика">
+		<option value="+015.29,-061.38">Розо
+	</optgroup>
+	<optgroup label="Доминиканская Республика">
+		<option value="+018.50,-069.99">Санто-Доминго
+		<option value="+018.52,-068.37">Пунта-Кана
+		<option value="+019.85,-071.65">Монте-Кристи
+	</optgroup>
+	<optgroup label="Каймановы острова">
+		<option value="+019.28,-081.37">Джорджтаун
+	</optgroup>
+	<optgroup label="Коста-Рика">
+		<option value="+009.92,-084.08">Сан-Хосе
+	</optgroup>
+	<optgroup label="Куба">
+		<option value="+023.12,-082.38">Гавана
+		<option value="+020.00,-075.81">Сантьяго-де-Куба
+	</optgroup>
+	<optgroup label="Кюрасау">
+		<option value="+012.10,-068.92">Виллемстад
+	</optgroup>
+	<optgroup label="Мартиника">
+		<option value="+014.62,-061.07">Фор-де-Франс
+	</optgroup>
+	<optgroup label="Монтсеррат">
+		<option value="+016.71,-062.21">Плимут
+	</optgroup>
+	<optgroup label="Никарагуа">
+		<option value="+012.15,-086.25">Манагуа
+	</optgroup>
+	<optgroup label="Острова Теркс и Кайкос">
+		<option value="+021.45,-071.14">Коберн-Таун
+	</optgroup>
+	<optgroup label="Панама">
+		<option value="+008.99,-079.52">Панама
+	</optgroup>
+	<optgroup label="Пуэрто-Рико">
+		<option value="+018.43,-066.10">Сан-Хуан
+	</optgroup>
+	<optgroup label="Сальвадор">
+		<option value="+013.70,-089.20">Сан-Сальвадор
+	</optgroup>
+	<optgroup label="Сент-Винсент и Гренадины">
+		<option value="+013.15,-061.22">Кингстаун
+	</optgroup>
+	<optgroup label="Сент-Китс и Невис">
+		<option value="+017.30,-062.72">Бастер
+	</optgroup>
+	<optgroup label="Сент-Люсия">
+		<option value="+014.00,-061.00">Кастри
+	</optgroup>
+	<optgroup label="Тринидад и Тобаго">
+		<option value="+010.66,-061.51">Порт-оф-Спейн
+	</optgroup>
+	<optgroup label="Ямайка">
+		<option value="+017.99,-076.78">Кингстон
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+<tr>
+	<td><b>ЮЖНАЯ АМЕРИКА</b></td>
+	<td>
+<select onchange="parsek(value);">
+	<option value="000000000000000">Город
+	<optgroup label="Боливия">
+		<option value="-016.50,-068.14">Ла-Пас
+	</optgroup>
+	<optgroup label="Венесуэла">
+		<option value="+010.49,-066.88">Каракас
+		<option value="+010.64,-071.64">Маракайбо
+	</optgroup>
+	<optgroup label="Гайана">
+		<option value="+006.80,-058.15">Джорджтаун
+	</optgroup>
+	<optgroup label="Колумбия">
+		<option value="+004.59,-074.08">Богота
+	</optgroup>
+	<optgroup label="Парагвай">
+		<option value="-025.27,-057.62">Асунсьон
+	</optgroup>
+	<optgroup label="Перу">
+		<option value="-016.40,-071.54">Арекипа
+		<option value="-003.74,-073.25">Икитос
+		<option value="-012.05,-077.07">Лима
+		<option value="-005.20,-080.64">Пиура
+	</optgroup>
+	<optgroup label="Суринам">
+		<option value="+005.82,-055.16">Парамарибо
+	</optgroup>
+	<optgroup label="Уругвай">
+		<option value="-034.87,-056.19">Монтевидео
+	</optgroup>
+	<optgroup label="Фолклендские острова">
+		<option value="-051.70,-057.85">Порт-Стэнли
+	</optgroup>
+	<optgroup label="Французская Гвиана">
+		<option value="+004.92,-052.32">Кайенна
+	</optgroup>
+	<optgroup label="Чили">
+		<option value="-018.48,-070.31">Арика
+		<option value="-053.15,-070.92">Пунта-Аренас
+		<option value="-033.45,-070.61">Сантьяго
+	</optgroup>
+	<optgroup label="Эквадор">
+		<option value="-002.20,-079.90">Гуаякиль
+		<option value="-000.21,-078.51">Кито
+	</optgroup>
+</select>
+	</td>
+</tr>
+
+</table></td>
+
+</tr></table>
+
+<br>
+
+	</div>
+
+		</div>
+<br>
+		<div id="podval">
+			<div id="copy">
+				&copy; Copyright <a href="http://erichware.vgd.name" target="_blank">Э.Г.Гаузер</a>, &nbsp;<a href="http://erichware.org/foto/fotobaku.htm" target="_blank">Баку</a>, &nbsp;01.05.2010, &nbsp;<a href="/sitemap.htm">Карта сайта</a>
+			</div><br>
+			<div id="temyniza">
+				<a href="/" title="Об этом сайте">Главная</a>
+				<a href="/rabota.htm" title="Все о моей работе">Работа</a>
+				<a href="/public.htm" title="Научные статьи">Статьи</a>
+				<a href="/program.htm" title="Программы">Программы</a>
+				<a href="/posobia.htm" title="Пособия и справочные материалы">Пособия</a>
+				<a href="/kontakt.htm" title="Контакты и история сайта">Контакты</a>
+			</div>
+<br>
+<span id="openstat2168925"></span><script type="text/javascript">
+var openstat = { counter: 2168925, image: 5062, next: openstat, track_links: "all" }; (function(d, t, p) {
+var j = d.createElement(t); j.async = true; j.type = "text/javascript";
+j.src = ("https:" == p ? "https:" : "http:") + "//openstat.net/cnt.js";
+var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
+})(document, "script", document.location.protocol);
+</script>
+<script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank rel=nofollow><img src='//counter.yadro.ru/hit?t25.3;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число посетителей за"+
+" сегодня' "+
+"border='0' width='88' height='15'><\/a>")
+//--></script>
+<br>
+		</div>
+<br>
+
+	</div>
+
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56d2e37ec6bcb220"></script>
+
+</body>
+</html>

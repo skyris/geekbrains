@@ -47,7 +47,7 @@ class FakeEmail:
         g.setup(connect_timeout=20, timeout=20)
         g.go(self.email_url)
         if g.response.code == 200:
-            print(g.response.body)
+            print(g.response.unicode_body())
 
 
 

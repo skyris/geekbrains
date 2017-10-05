@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input {
+            display: none;
+        }
+
+        label {
+            display: block;
+            width: 200px;
+            line-height: 50px;
+            background: #bbb;
+            text-align: center;
+            cursor: pointer;
+        }
+        div {
+            width: 200px;
+            height: 100px;
+            margin: 5px 0;
+            background-color: #444;
+        }
+
+        input:checked ~ div {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+<input type="checkbox" name="" id="check">
+<label for="check">My chechbox</label>
+<div>
+
+</div>
+</body>
+</html>

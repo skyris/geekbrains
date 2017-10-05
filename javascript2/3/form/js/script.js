@@ -1,3 +1,4 @@
+// TODO разобраться с flagSubmit
 function validateForm() {
     var flagSubmit = true;
     validateItem("name", isValidName, "Please enter at least two characters");
@@ -27,7 +28,7 @@ function validateItem(id, validateFunction, feedbackMessage) {
 }
 
 function isValidName(name) {
-    return /^[A-Za-zА-Яа-яёЁ]+$/.test(name);
+    return /^[A-ZА-ЯЁ]+$/i.test(name);
 }
 
 function isValidPhone(phone) {
